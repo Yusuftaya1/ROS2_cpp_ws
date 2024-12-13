@@ -5,7 +5,7 @@ class MyPublisher : public rclcpp::Node{
     private:
         rclcpp::TimerBase::SharedPtr timer_;
         rclcpp::Publisher<std_msgs::msg::String>::SharedPtr pub_;
-        
+
         std::string PubName = "pub_test";
         size_t counter_;
         void timer_callback(){
@@ -20,6 +20,7 @@ class MyPublisher : public rclcpp::Node{
             pub_ = this->create_publisher<std_msgs::msg::String>(PubName,10);
             timer_ = this->create_wall_timer(
                 std::chrono::milliseconds(500), std::bind(&MyPublisher::timer_callback, this));
+                
         }
 };
 
