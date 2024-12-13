@@ -1,0 +1,32 @@
+[0.027s] Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
+[0.117s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.146s] [ 33%] Built target cpp_try
+[0.153s] [ 66%] Built target cpp_try2
+[0.163s] [ 83%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[10.013s] [100%] [32m[1mLinking CXX executable publisher[0m
+[10.476s] [100%] Built target publisher
+[10.504s] Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
+[10.528s] Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tayya/cpp_pkg/build/cpp_package
+[10.544s] -- Install configuration: ""
+[10.544s] -- Installing: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try
+[10.548s] -- Set runtime path of "/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try" to ""
+[10.548s] -- Installing: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try2
+[10.559s] -- Set runtime path of "/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try2" to ""
+[10.559s] -- Installing: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/publisher
+[10.563s] -- Set runtime path of "/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/publisher" to ""
+[10.563s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/package_run_dependencies/cpp_package
+[10.563s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/parent_prefix_path/cpp_package
+[10.564s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/ament_prefix_path.sh
+[10.564s] -- Installing: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/ament_prefix_path.dsv
+[10.564s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/path.sh
+[10.564s] -- Installing: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/path.dsv
+[10.565s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.bash
+[10.565s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.sh
+[10.565s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.zsh
+[10.565s] -- Installing: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.dsv
+[10.565s] -- Installing: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/package.dsv
+[10.566s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/packages/cpp_package
+[10.567s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig.cmake
+[10.567s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig-version.cmake
+[10.567s] -- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/package.xml
+[10.572s] Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tayya/cpp_pkg/build/cpp_package

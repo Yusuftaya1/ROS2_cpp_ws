@@ -1,0 +1,12 @@
+[0.032s] Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
+[0.120s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[0.149s] [ 33%] Built target cpp_try2
+[0.153s] [ 66%] Built target cpp_try
+[0.159s] [ 83%] [32m[1mLinking CXX executable publisher[0m
+[0.382s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.383s] (.text+0x1b): undefined reference to `main'
+[0.396s] collect2: error: ld returned 1 exit status
+[0.399s] gmake[2]: *** [CMakeFiles/publisher.dir/build.make:159: publisher] Error 1
+[0.400s] gmake[1]: *** [CMakeFiles/Makefile2:193: CMakeFiles/publisher.dir/all] Error 2
+[0.401s] gmake: *** [Makefile:146: all] Error 2
+[0.407s] Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8

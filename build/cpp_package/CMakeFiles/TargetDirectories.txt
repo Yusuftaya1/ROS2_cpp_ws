@@ -1,0 +1,12 @@
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/uninstall.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/cpp_package_uninstall.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/cpp_try.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/cpp_try2.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/publisher.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/test.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/edit_cache.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/rebuild_cache.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/list_install_components.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/install.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/install/local.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/install/strip.dir
