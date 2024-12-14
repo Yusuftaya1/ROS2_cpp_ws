@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target service[0m
+[ 20%] Built target subscriber
+[ 50%] Built target publisher
+[ 60%] Built target cpp_try2
+[ 80%] Built target cpp_try
+[ 90%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m

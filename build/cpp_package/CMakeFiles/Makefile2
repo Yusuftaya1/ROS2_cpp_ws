@@ -66,6 +66,9 @@ CMAKE_BINARY_DIR = /home/tayya/cpp_pkg/build/cpp_package
 all: CMakeFiles/cpp_try.dir/all
 all: CMakeFiles/cpp_try2.dir/all
 all: CMakeFiles/publisher.dir/all
+all: CMakeFiles/subscriber.dir/all
+all: CMakeFiles/service.dir/all
+all: CMakeFiles/client.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -78,6 +81,9 @@ clean: CMakeFiles/cpp_package_uninstall.dir/clean
 clean: CMakeFiles/cpp_try.dir/clean
 clean: CMakeFiles/cpp_try2.dir/clean
 clean: CMakeFiles/publisher.dir/clean
+clean: CMakeFiles/subscriber.dir/clean
+clean: CMakeFiles/service.dir/clean
+clean: CMakeFiles/client.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -139,7 +145,7 @@ CMakeFiles/cpp_package_uninstall.dir/clean:
 CMakeFiles/cpp_try.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_try.dir/build.make CMakeFiles/cpp_try.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_try.dir/build.make CMakeFiles/cpp_try.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles --progress-num=1,2 "Built target cpp_try"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles --progress-num=3,4 "Built target cpp_try"
 .PHONY : CMakeFiles/cpp_try.dir/all
 
 # Build rule for subdir invocation for target.
@@ -165,7 +171,7 @@ CMakeFiles/cpp_try.dir/clean:
 CMakeFiles/cpp_try2.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_try2.dir/build.make CMakeFiles/cpp_try2.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/cpp_try2.dir/build.make CMakeFiles/cpp_try2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles --progress-num=3,4 "Built target cpp_try2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles --progress-num=5,6 "Built target cpp_try2"
 .PHONY : CMakeFiles/cpp_try2.dir/all
 
 # Build rule for subdir invocation for target.
@@ -191,7 +197,7 @@ CMakeFiles/cpp_try2.dir/clean:
 CMakeFiles/publisher.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles --progress-num=5,6 "Built target publisher"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles --progress-num=7,8 "Built target publisher"
 .PHONY : CMakeFiles/publisher.dir/all
 
 # Build rule for subdir invocation for target.
@@ -209,6 +215,84 @@ publisher: CMakeFiles/publisher.dir/rule
 CMakeFiles/publisher.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/publisher.dir/build.make CMakeFiles/publisher.dir/clean
 .PHONY : CMakeFiles/publisher.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/subscriber.dir
+
+# All Build rule for target.
+CMakeFiles/subscriber.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles --progress-num=11,12 "Built target subscriber"
+.PHONY : CMakeFiles/subscriber.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/subscriber.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/subscriber.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles 0
+.PHONY : CMakeFiles/subscriber.dir/rule
+
+# Convenience name for target.
+subscriber: CMakeFiles/subscriber.dir/rule
+.PHONY : subscriber
+
+# clean rule for target.
+CMakeFiles/subscriber.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/subscriber.dir/build.make CMakeFiles/subscriber.dir/clean
+.PHONY : CMakeFiles/subscriber.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/service.dir
+
+# All Build rule for target.
+CMakeFiles/service.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/service.dir/build.make CMakeFiles/service.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/service.dir/build.make CMakeFiles/service.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles --progress-num=9,10 "Built target service"
+.PHONY : CMakeFiles/service.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/service.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/service.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles 0
+.PHONY : CMakeFiles/service.dir/rule
+
+# Convenience name for target.
+service: CMakeFiles/service.dir/rule
+.PHONY : service
+
+# clean rule for target.
+CMakeFiles/service.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/service.dir/build.make CMakeFiles/service.dir/clean
+.PHONY : CMakeFiles/service.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/client.dir
+
+# All Build rule for target.
+CMakeFiles/client.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles --progress-num=1,2 "Built target client"
+.PHONY : CMakeFiles/client.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/client.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/client.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles 0
+.PHONY : CMakeFiles/client.dir/rule
+
+# Convenience name for target.
+client: CMakeFiles/client.dir/rule
+.PHONY : client
+
+# clean rule for target.
+CMakeFiles/client.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/clean
+.PHONY : CMakeFiles/client.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

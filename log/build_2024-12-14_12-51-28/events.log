@@ -1,0 +1,148 @@
+[0.000000] (-) TimerEvent: {}
+[0.000770] (cpp_package) JobQueued: {'identifier': 'cpp_package', 'dependencies': OrderedDict()}
+[0.001460] (cpp_package) JobStarted: {'identifier': 'cpp_package'}
+[0.026041] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'cmake'}
+[0.028818] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'build'}
+[0.031868] (cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tayya/cpp_pkg/build/cpp_package', '--', '-j8', '-l8'], 'cwd': '/home/tayya/cpp_pkg/build/cpp_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1356'), ('SYSTEMD_EXEC_PID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8446'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/cpp_pkg/install:/home/tayya/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:18458'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1488,unix/Asus-Ubuntu:/tmp/.ICE-unix/1488'), ('INVOCATION_ID', 'bde79ec7918542f1b582e8bf82af3523'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GH09X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:6dcb846c-6142-477f-96f6-922e94916d3d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/cpp_pkg/build/cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.097332] (cpp_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099395] (-) TimerEvent: {}
+[0.199933] (-) TimerEvent: {}
+[0.300562] (-) TimerEvent: {}
+[0.401099] (-) TimerEvent: {}
+[0.442397] (cpp_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.501289] (-) TimerEvent: {}
+[0.501667] (cpp_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.507166] (cpp_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.519654] (cpp_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.541300] (cpp_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.569956] (cpp_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.601492] (-) TimerEvent: {}
+[0.641406] (cpp_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.644353] (cpp_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701674] (-) TimerEvent: {}
+[0.802140] (-) TimerEvent: {}
+[0.851352] (cpp_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.902318] (-) TimerEvent: {}
+[0.957256] (cpp_package) StdoutLine: {'line': b'-- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)\n'}
+[1.002509] (-) TimerEvent: {}
+[1.039820] (cpp_package) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.102652] (-) TimerEvent: {}
+[1.203161] (-) TimerEvent: {}
+[1.303571] (-) TimerEvent: {}
+[1.404005] (-) TimerEvent: {}
+[1.504423] (-) TimerEvent: {}
+[1.579860] (cpp_package) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.604578] (-) TimerEvent: {}
+[1.705077] (-) TimerEvent: {}
+[1.805560] (-) TimerEvent: {}
+[1.906009] (-) TimerEvent: {}
+[2.006449] (-) TimerEvent: {}
+[2.106876] (-) TimerEvent: {}
+[2.207329] (-) TimerEvent: {}
+[2.224879] (cpp_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.307475] (-) TimerEvent: {}
+[2.408067] (-) TimerEvent: {}
+[2.508516] (-) TimerEvent: {}
+[2.527342] (cpp_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.578616] (cpp_package) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.608714] (-) TimerEvent: {}
+[2.629785] (cpp_package) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.630118] (cpp_package) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.630271] (cpp_package) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.663960] (cpp_package) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[2.664309] (cpp_package) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[2.664452] (cpp_package) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[2.664569] (cpp_package) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[2.664687] (cpp_package) StderrLine: {'line': b'  CMakeLists.txt:36 (rosidl_target_interfaces)\n'}
+[2.664795] (cpp_package) StderrLine: {'line': b'\n'}
+[2.664906] (cpp_package) StderrLine: {'line': b'\x1b[0m\n'}
+[2.673958] (cpp_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.708875] (-) TimerEvent: {}
+[2.769415] (cpp_package) StdoutLine: {'line': b'-- Generating done\n'}
+[2.809055] (-) TimerEvent: {}
+[2.809938] (cpp_package) StdoutLine: {'line': b'-- Build files have been written to: /home/tayya/cpp_pkg/build/cpp_package\n'}
+[2.885144] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_generator_c\x1b[0m\n'}
+[2.885595] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_try\x1b[0m\n'}
+[2.885867] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[2.889348] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[2.897493] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_try2\x1b[0m\n'}
+[2.909201] (-) TimerEvent: {}
+[2.915730] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service\x1b[0m\n'}
+[2.920400] (cpp_package) StdoutLine: {'line': b'[  2%] Built target cpp_package__cpp\n'}
+[2.934020] (cpp_package) StdoutLine: {'line': b'[  9%] Built target cpp_package__rosidl_generator_c\n'}
+[2.943903] (cpp_package) StdoutLine: {'line': b'[  9%] Built target ament_cmake_python_copy_cpp_package\n'}
+[2.957284] (cpp_package) StdoutLine: {'line': b'[ 13%] Built target cpp_try\n'}
+[2.957953] (cpp_package) StdoutLine: {'line': b'[ 16%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.971418] (cpp_package) StdoutLine: {'line': b'[ 20%] Built target subscriber\n'}
+[2.972005] (cpp_package) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.987238] (cpp_package) StdoutLine: {'line': b'[ 27%] Built target publisher\n'}
+[2.987888] (cpp_package) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o\x1b[0m\n'}
+[2.993244] (cpp_package) StdoutLine: {'line': b'[ 32%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.993832] (cpp_package) StdoutLine: {'line': b'[ 34%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[3.012142] (-) TimerEvent: {}
+[3.021460] (cpp_package) StdoutLine: {'line': b'[ 37%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[3.037407] (cpp_package) StdoutLine: {'line': b'[ 41%] Built target cpp_try2\n'}
+[3.099129] (cpp_package) StdoutLine: {'line': b'[ 44%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[3.112284] (-) TimerEvent: {}
+[3.219130] (-) TimerEvent: {}
+[3.319755] (-) TimerEvent: {}
+[3.420375] (-) TimerEvent: {}
+[3.520926] (-) TimerEvent: {}
+[3.625141] (-) TimerEvent: {}
+[3.728127] (-) TimerEvent: {}
+[3.828731] (-) TimerEvent: {}
+[3.929716] (-) TimerEvent: {}
+[4.030671] (-) TimerEvent: {}
+[4.131386] (-) TimerEvent: {}
+[4.141368] (cpp_package) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/cpp_package__rosidl_typesupport_c.dir/rosidl_typesupport_c/cpp_package/srv/say_name__type_support.cpp.o\x1b[0m\n'}
+[4.185181] (cpp_package) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/cpp_package__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/cpp_package/srv/detail/say_name__type_support.cpp.o\x1b[0m\n'}
+[4.224146] (cpp_package) StdoutLine: {'line': b'running egg_info\n'}
+[4.228198] (cpp_package) StdoutLine: {'line': b'writing cpp_package.egg-info/PKG-INFO\n'}
+[4.230225] (cpp_package) StdoutLine: {'line': b'writing dependency_links to cpp_package.egg-info/dependency_links.txt\n'}
+[4.231498] (-) TimerEvent: {}
+[4.232482] (cpp_package) StdoutLine: {'line': b'writing top-level names to cpp_package.egg-info/top_level.txt\n'}
+[4.241218] (cpp_package) StdoutLine: {'line': b"reading manifest file 'cpp_package.egg-info/SOURCES.txt'\n"}
+[4.250816] (cpp_package) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/cpp_package__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/cpp_package/srv/say_name__type_support.cpp.o\x1b[0m\n'}
+[4.265119] (cpp_package) StdoutLine: {'line': b"writing manifest file 'cpp_package.egg-info/SOURCES.txt'\n"}
+[4.265645] (cpp_package) StdoutLine: {'line': b'[ 53%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_package__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.318779] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory\n'}
+[4.319271] (cpp_package) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"example_interfaces/srv/add_two_ints.hpp"\x1b[m\x1b[K\n'}
+[4.319605] (cpp_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.319869] (cpp_package) StderrLine: {'line': b'compilation terminated.\n'}
+[4.331665] (-) TimerEvent: {}
+[4.334082] (cpp_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/service.dir/build.make:76: CMakeFiles/service.dir/src/service.cpp.o] Error 1\n'}
+[4.334549] (cpp_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:706: CMakeFiles/service.dir/all] Error 2\n'}
+[4.334829] (cpp_package) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[4.361998] (cpp_package) StdoutLine: {'line': b'[ 53%] Built target ament_cmake_python_build_cpp_package_egg\n'}
+[4.419103] (cpp_package) StdoutLine: {'line': b'[ 53%] Built target cpp_package__rosidl_typesupport_c\n'}
+[4.431827] (-) TimerEvent: {}
+[4.440722] (cpp_package) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding C object CMakeFiles/cpp_package__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/cpp_package/srv/detail/say_name__type_support.c.o\x1b[0m\n'}
+[4.465828] (cpp_package) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/cpp_package__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/cpp_package/srv/detail/dds_fastrtps/say_name__type_support.cpp.o\x1b[0m\n'}
+[4.479437] (cpp_package) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object CMakeFiles/cpp_package__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/cpp_package/srv/detail/say_name__type_support_c.cpp.o\x1b[0m\n'}
+[4.531999] (-) TimerEvent: {}
+[4.554501] (cpp_package) StdoutLine: {'line': b'[ 62%] \x1b[32m\x1b[1mLinking C shared library libcpp_package__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.625786] (cpp_package) StdoutLine: {'line': b'[ 62%] Built target cpp_package__rosidl_typesupport_introspection_c\n'}
+[4.632209] (-) TimerEvent: {}
+[4.732813] (-) TimerEvent: {}
+[4.833363] (-) TimerEvent: {}
+[4.934042] (-) TimerEvent: {}
+[5.034915] (-) TimerEvent: {}
+[5.136010] (-) TimerEvent: {}
+[5.198149] (cpp_package) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_package__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.236191] (-) TimerEvent: {}
+[5.296674] (cpp_package) StdoutLine: {'line': b'[ 65%] Built target cpp_package__rosidl_typesupport_cpp\n'}
+[5.336363] (-) TimerEvent: {}
+[5.338434] (cpp_package) StdoutLine: {'line': b'[ 67%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_package__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.436520] (-) TimerEvent: {}
+[5.486504] (cpp_package) StdoutLine: {'line': b'[ 67%] Built target cpp_package__rosidl_typesupport_introspection_cpp\n'}
+[5.524246] (cpp_package) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_package__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.536682] (-) TimerEvent: {}
+[5.621911] (cpp_package) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libcpp_package__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[5.636839] (-) TimerEvent: {}
+[5.690631] (cpp_package) StdoutLine: {'line': b'[ 72%] Built target cpp_package__rosidl_typesupport_fastrtps_c\n'}
+[5.737019] (-) TimerEvent: {}
+[5.795006] (cpp_package) StdoutLine: {'line': b'[ 72%] Built target cpp_package__rosidl_typesupport_fastrtps_cpp\n'}
+[5.797400] (cpp_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.801451] (cpp_package) CommandEnded: {'returncode': 2}
+[5.825679] (cpp_package) JobEnded: {'identifier': 'cpp_package', 'rc': 2}
+[5.836920] (-) EventReactorShutdown: {}

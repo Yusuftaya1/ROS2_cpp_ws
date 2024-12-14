@@ -1,0 +1,6 @@
+{
+  "package_name": "cpp_package",
+  "non_idl_tuples": [
+    "/home/tayya/cpp_pkg/src/cpp_package:srv/SayName.srv"
+  ]
+}

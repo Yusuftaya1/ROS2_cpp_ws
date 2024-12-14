@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cpp_package/srv/SayName.srv
+// generated code does not contain a copyright notice
+
+
+module cpp_package {
+  module srv {
+    struct SayName_Request {
+      string name;
+
+      string surname;
+    };
+    struct SayName_Response {
+      string fullname;
+    };
+  };
+};

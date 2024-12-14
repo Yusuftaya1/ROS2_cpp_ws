@@ -1,6 +1,9 @@
 /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try
 /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try2
+/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/subscriber
 /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/publisher
+/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/service
+/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/client
 /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/package_run_dependencies/cpp_package
 /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/parent_prefix_path/cpp_package
 /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/ament_prefix_path.sh

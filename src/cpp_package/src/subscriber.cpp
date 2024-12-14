@@ -7,10 +7,10 @@ class MySubscriber : public rclcpp::Node{
         void SubscriberCallback(const std_msgs::msg::String::SharedPtr msg);
 
     public:
-        MySubscriber():Node("exam_sub"){
+        MySubscriber():Node("sub_node"){
             sub_ = this->create_subscription<std_msgs::msg::String>(
             "/my_message", 10, std::bind(&MySubscriber::SubscriberCallback,
-            this, std::placeholders::_1));           
+            this, std::placeholders::_1));
         }
 };
 

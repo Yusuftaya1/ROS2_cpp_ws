@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.002375] (cpp_package) JobQueued: {'identifier': 'cpp_package', 'dependencies': OrderedDict()}
+[0.006950] (cpp_package) JobStarted: {'identifier': 'cpp_package'}
+[0.038985] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'cmake'}
+[0.041324] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'build'}
+[0.044040] (cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tayya/cpp_pkg/build/cpp_package', '--', '-j8', '-l8'], 'cwd': '/home/tayya/cpp_pkg/build/cpp_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1356'), ('SYSTEMD_EXEC_PID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8446'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/cpp_pkg/install:/home/tayya/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:18458'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1488,unix/Asus-Ubuntu:/tmp/.ICE-unix/1488'), ('INVOCATION_ID', 'bde79ec7918542f1b582e8bf82af3523'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GH09X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:6dcb846c-6142-477f-96f6-922e94916d3d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/cpp_pkg/build/cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.099736] (-) TimerEvent: {}
+[0.162942] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client\x1b[0m\n'}
+[0.197130] (cpp_package) StdoutLine: {'line': b'[ 25%] Built target cpp_try2\n'}
+[0.197612] (cpp_package) StdoutLine: {'line': b'[ 33%] Built target publisher\n'}
+[0.199926] (-) TimerEvent: {}
+[0.203696] (cpp_package) StdoutLine: {'line': b'[ 50%] Built target subscriber\n'}
+[0.204983] (cpp_package) StdoutLine: {'line': b'[ 66%] Built target cpp_try\n'}
+[0.209658] (cpp_package) StdoutLine: {'line': b'[ 83%] Built target service\n'}
+[0.217055] (cpp_package) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o\x1b[0m\n'}
+[0.300102] (-) TimerEvent: {}
+[0.400612] (-) TimerEvent: {}
+[0.501190] (-) TimerEvent: {}
+[0.601785] (-) TimerEvent: {}
+[0.702421] (-) TimerEvent: {}
+[0.802995] (-) TimerEvent: {}
+[0.903486] (-) TimerEvent: {}
+[1.003943] (-) TimerEvent: {}
+[1.104382] (-) TimerEvent: {}
+[1.204984] (-) TimerEvent: {}
+[1.305570] (-) TimerEvent: {}
+[1.406303] (-) TimerEvent: {}
+[1.506983] (-) TimerEvent: {}
+[1.607605] (-) TimerEvent: {}
+[1.708207] (-) TimerEvent: {}
+[1.808803] (-) TimerEvent: {}
+[1.909462] (-) TimerEvent: {}
+[2.010077] (-) TimerEvent: {}
+[2.110647] (-) TimerEvent: {}
+[2.211260] (-) TimerEvent: {}
+[2.311821] (-) TimerEvent: {}
+[2.412400] (-) TimerEvent: {}
+[2.512971] (-) TimerEvent: {}
+[2.613606] (-) TimerEvent: {}
+[2.714199] (-) TimerEvent: {}
+[2.814775] (-) TimerEvent: {}
+[2.915377] (-) TimerEvent: {}
+[3.015970] (-) TimerEvent: {}
+[3.116538] (-) TimerEvent: {}
+[3.217143] (-) TimerEvent: {}
+[3.317746] (-) TimerEvent: {}
+[3.418339] (-) TimerEvent: {}
+[3.518939] (-) TimerEvent: {}
+[3.619540] (-) TimerEvent: {}
+[3.720120] (-) TimerEvent: {}
+[3.820686] (-) TimerEvent: {}
+[3.921271] (-) TimerEvent: {}
+[4.021841] (-) TimerEvent: {}
+[4.122453] (-) TimerEvent: {}
+[4.223049] (-) TimerEvent: {}
+[4.323601] (-) TimerEvent: {}
+[4.424191] (-) TimerEvent: {}
+[4.524775] (-) TimerEvent: {}
+[4.625374] (-) TimerEvent: {}
+[4.725971] (-) TimerEvent: {}
+[4.826545] (-) TimerEvent: {}
+[4.927167] (-) TimerEvent: {}
+[5.027775] (-) TimerEvent: {}
+[5.128353] (-) TimerEvent: {}
+[5.228955] (-) TimerEvent: {}
+[5.329520] (-) TimerEvent: {}
+[5.430118] (-) TimerEvent: {}
+[5.530729] (-) TimerEvent: {}
+[5.631323] (-) TimerEvent: {}
+[5.731897] (-) TimerEvent: {}
+[5.832462] (-) TimerEvent: {}
+[5.933047] (-) TimerEvent: {}
+[6.033618] (-) TimerEvent: {}
+[6.134202] (-) TimerEvent: {}
+[6.234780] (-) TimerEvent: {}
+[6.335381] (-) TimerEvent: {}
+[6.435970] (-) TimerEvent: {}
+[6.536576] (-) TimerEvent: {}
+[6.637181] (-) TimerEvent: {}
+[6.737778] (-) TimerEvent: {}
+[6.838356] (-) TimerEvent: {}
+[6.938981] (-) TimerEvent: {}
+[7.039519] (-) TimerEvent: {}
+[7.140096] (-) TimerEvent: {}
+[7.240647] (-) TimerEvent: {}
+[7.341215] (-) TimerEvent: {}
+[7.441769] (-) TimerEvent: {}
+[7.542337] (-) TimerEvent: {}
+[7.642890] (-) TimerEvent: {}
+[7.743459] (-) TimerEvent: {}
+[7.844090] (-) TimerEvent: {}
+[7.944640] (-) TimerEvent: {}
+[8.045201] (-) TimerEvent: {}
+[8.114680] (cpp_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client\x1b[0m\n'}
+[8.145354] (-) TimerEvent: {}
+[8.245870] (-) TimerEvent: {}
+[8.346320] (-) TimerEvent: {}
+[8.446792] (-) TimerEvent: {}
+[8.505603] (cpp_package) StdoutLine: {'line': b'[100%] Built target client\n'}
+[8.528296] (cpp_package) CommandEnded: {'returncode': 0}
+[8.529976] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'install'}
+[8.546928] (-) TimerEvent: {}
+[8.549522] (cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tayya/cpp_pkg/build/cpp_package'], 'cwd': '/home/tayya/cpp_pkg/build/cpp_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1356'), ('SYSTEMD_EXEC_PID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8446'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/cpp_pkg/install:/home/tayya/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:18458'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1488,unix/Asus-Ubuntu:/tmp/.ICE-unix/1488'), ('INVOCATION_ID', 'bde79ec7918542f1b582e8bf82af3523'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GH09X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:6dcb846c-6142-477f-96f6-922e94916d3d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/cpp_pkg/build/cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[8.564210] (cpp_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.564696] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try\n'}
+[8.568226] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try" to ""\n'}
+[8.568650] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try2\n'}
+[8.579972] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try2" to ""\n'}
+[8.580571] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/subscriber\n'}
+[8.593151] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/subscriber" to ""\n'}
+[8.593569] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/publisher\n'}
+[8.597660] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/publisher" to ""\n'}
+[8.598099] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/service\n'}
+[8.600076] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/service" to ""\n'}
+[8.600410] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/client\n'}
+[8.602025] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/client" to ""\n'}
+[8.602428] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/package_run_dependencies/cpp_package\n'}
+[8.602606] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/parent_prefix_path/cpp_package\n'}
+[8.602882] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/ament_prefix_path.sh\n'}
+[8.603226] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/ament_prefix_path.dsv\n'}
+[8.603470] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/path.sh\n'}
+[8.603692] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/path.dsv\n'}
+[8.604076] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.bash\n'}
+[8.604238] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.sh\n'}
+[8.604374] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.zsh\n'}
+[8.604503] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.dsv\n'}
+[8.604630] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/package.dsv\n'}
+[8.604752] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/packages/cpp_package\n'}
+[8.604902] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig.cmake\n'}
+[8.605043] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig-version.cmake\n'}
+[8.605170] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/package.xml\n'}
+[8.607482] (cpp_package) CommandEnded: {'returncode': 0}
+[8.645052] (cpp_package) JobEnded: {'identifier': 'cpp_package', 'rc': 0}
+[8.646438] (-) EventReactorShutdown: {}

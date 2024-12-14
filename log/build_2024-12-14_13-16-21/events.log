@@ -1,0 +1,303 @@
+[0.000000] (-) TimerEvent: {}
+[0.000641] (cpp_package) JobQueued: {'identifier': 'cpp_package', 'dependencies': OrderedDict()}
+[0.001142] (cpp_package) JobStarted: {'identifier': 'cpp_package'}
+[0.018919] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'cmake'}
+[0.020387] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'build'}
+[0.022020] (cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tayya/cpp_pkg/build/cpp_package', '--', '-j8', '-l8'], 'cwd': '/home/tayya/cpp_pkg/build/cpp_package', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1356'), ('SYSTEMD_EXEC_PID', '1712'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8446'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/cpp_pkg/install:/home/tayya/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:18458'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1488,unix/Asus-Ubuntu:/tmp/.ICE-unix/1488'), ('INVOCATION_ID', 'bde79ec7918542f1b582e8bf82af3523'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.GH09X2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:6dcb846c-6142-477f-96f6-922e94916d3d'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/cpp_pkg/build/cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.079128] (cpp_package) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099567] (-) TimerEvent: {}
+[0.200079] (-) TimerEvent: {}
+[0.300634] (-) TimerEvent: {}
+[0.366018] (cpp_package) StdoutLine: {'line': b'-- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.400815] (-) TimerEvent: {}
+[0.427221] (cpp_package) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.432486] (cpp_package) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.445512] (cpp_package) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.466265] (cpp_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.494974] (cpp_package) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500958] (-) TimerEvent: {}
+[0.566718] (cpp_package) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.569698] (cpp_package) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.601131] (-) TimerEvent: {}
+[0.701596] (-) TimerEvent: {}
+[0.784546] (cpp_package) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.801748] (-) TimerEvent: {}
+[0.902276] (-) TimerEvent: {}
+[1.002857] (-) TimerEvent: {}
+[1.074436] (cpp_package) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.103017] (-) TimerEvent: {}
+[1.122519] (cpp_package) StdoutLine: {'line': b'-- Generating done\n'}
+[1.143203] (cpp_package) StdoutLine: {'line': b'-- Build files have been written to: /home/tayya/cpp_pkg/build/cpp_package\n'}
+[1.203075] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_try\x1b[0m\n'}
+[1.203587] (-) TimerEvent: {}
+[1.204588] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target publisher\x1b[0m\n'}
+[1.208148] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service\x1b[0m\n'}
+[1.208964] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_try2\x1b[0m\n'}
+[1.213955] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target subscriber\x1b[0m\n'}
+[1.260605] (cpp_package) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o\x1b[0m\n'}
+[1.261215] (cpp_package) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/cpp_try.dir/src/cpp_try.cpp.o\x1b[0m\n'}
+[1.261584] (cpp_package) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o\x1b[0m\n'}
+[1.261841] (cpp_package) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o\x1b[0m\n'}
+[1.263742] (cpp_package) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/cpp_try2.dir/src/cpp_try2.cpp.o\x1b[0m\n'}
+[1.303774] (-) TimerEvent: {}
+[1.405830] (-) TimerEvent: {}
+[1.506399] (-) TimerEvent: {}
+[1.607005] (-) TimerEvent: {}
+[1.711125] (-) TimerEvent: {}
+[1.815436] (-) TimerEvent: {}
+[1.916287] (-) TimerEvent: {}
+[2.016867] (-) TimerEvent: {}
+[2.117465] (-) TimerEvent: {}
+[2.177643] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:2:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kexample_interfaces/srv/add_two_ints.hpp: No such file or directory\n'}
+[2.178209] (cpp_package) StderrLine: {'line': b'    2 | #include \x1b[01;31m\x1b[K"example_interfaces/srv/add_two_ints.hpp"\x1b[m\x1b[K\n'}
+[2.178555] (cpp_package) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.178812] (cpp_package) StderrLine: {'line': b'compilation terminated.\n'}
+[2.191566] (cpp_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/service.dir/build.make:76: CMakeFiles/service.dir/src/service.cpp.o] Error 1\n'}
+[2.193552] (cpp_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/service.dir/all] Error 2\n'}
+[2.194025] (cpp_package) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.220729] (-) TimerEvent: {}
+[2.322492] (-) TimerEvent: {}
+[2.424589] (-) TimerEvent: {}
+[2.526078] (-) TimerEvent: {}
+[2.627026] (-) TimerEvent: {}
+[2.728463] (-) TimerEvent: {}
+[2.829132] (-) TimerEvent: {}
+[2.930372] (-) TimerEvent: {}
+[3.031044] (-) TimerEvent: {}
+[3.135150] (-) TimerEvent: {}
+[3.235832] (-) TimerEvent: {}
+[3.336946] (-) TimerEvent: {}
+[3.437642] (-) TimerEvent: {}
+[3.538387] (-) TimerEvent: {}
+[3.639037] (-) TimerEvent: {}
+[3.739700] (-) TimerEvent: {}
+[3.840393] (-) TimerEvent: {}
+[3.941029] (-) TimerEvent: {}
+[4.041740] (-) TimerEvent: {}
+[4.142419] (-) TimerEvent: {}
+[4.243069] (-) TimerEvent: {}
+[4.343743] (-) TimerEvent: {}
+[4.444380] (-) TimerEvent: {}
+[4.545122] (-) TimerEvent: {}
+[4.645792] (-) TimerEvent: {}
+[4.749461] (-) TimerEvent: {}
+[4.850132] (-) TimerEvent: {}
+[4.950934] (-) TimerEvent: {}
+[5.051612] (-) TimerEvent: {}
+[5.152261] (-) TimerEvent: {}
+[5.252954] (-) TimerEvent: {}
+[5.353618] (-) TimerEvent: {}
+[5.454250] (-) TimerEvent: {}
+[5.554939] (-) TimerEvent: {}
+[5.655638] (-) TimerEvent: {}
+[5.756279] (-) TimerEvent: {}
+[5.856959] (-) TimerEvent: {}
+[5.957629] (-) TimerEvent: {}
+[6.058255] (-) TimerEvent: {}
+[6.158923] (-) TimerEvent: {}
+[6.259578] (-) TimerEvent: {}
+[6.362472] (-) TimerEvent: {}
+[6.463209] (-) TimerEvent: {}
+[6.566498] (-) TimerEvent: {}
+[6.667157] (-) TimerEvent: {}
+[6.767855] (-) TimerEvent: {}
+[6.868464] (-) TimerEvent: {}
+[6.969138] (-) TimerEvent: {}
+[7.069813] (-) TimerEvent: {}
+[7.170454] (-) TimerEvent: {}
+[7.271080] (-) TimerEvent: {}
+[7.371726] (-) TimerEvent: {}
+[7.472367] (-) TimerEvent: {}
+[7.573038] (-) TimerEvent: {}
+[7.675454] (-) TimerEvent: {}
+[7.776189] (-) TimerEvent: {}
+[7.878451] (-) TimerEvent: {}
+[7.979117] (-) TimerEvent: {}
+[8.079856] (-) TimerEvent: {}
+[8.180825] (-) TimerEvent: {}
+[8.281919] (-) TimerEvent: {}
+[8.383251] (-) TimerEvent: {}
+[8.483992] (-) TimerEvent: {}
+[8.584668] (-) TimerEvent: {}
+[8.685339] (-) TimerEvent: {}
+[8.786056] (-) TimerEvent: {}
+[8.886767] (-) TimerEvent: {}
+[8.987693] (-) TimerEvent: {}
+[9.090307] (-) TimerEvent: {}
+[9.194021] (-) TimerEvent: {}
+[9.299264] (-) TimerEvent: {}
+[9.400280] (-) TimerEvent: {}
+[9.504170] (-) TimerEvent: {}
+[9.608155] (-) TimerEvent: {}
+[9.710031] (-) TimerEvent: {}
+[9.810785] (-) TimerEvent: {}
+[9.911561] (-) TimerEvent: {}
+[10.012255] (-) TimerEvent: {}
+[10.112950] (-) TimerEvent: {}
+[10.213699] (-) TimerEvent: {}
+[10.315222] (-) TimerEvent: {}
+[10.415951] (-) TimerEvent: {}
+[10.516664] (-) TimerEvent: {}
+[10.617510] (-) TimerEvent: {}
+[10.718153] (-) TimerEvent: {}
+[10.818869] (-) TimerEvent: {}
+[10.923463] (-) TimerEvent: {}
+[11.024132] (-) TimerEvent: {}
+[11.124998] (-) TimerEvent: {}
+[11.225727] (-) TimerEvent: {}
+[11.326474] (-) TimerEvent: {}
+[11.430509] (-) TimerEvent: {}
+[11.531168] (-) TimerEvent: {}
+[11.632154] (-) TimerEvent: {}
+[11.733516] (-) TimerEvent: {}
+[11.834522] (-) TimerEvent: {}
+[11.936506] (-) TimerEvent: {}
+[12.037521] (-) TimerEvent: {}
+[12.138255] (-) TimerEvent: {}
+[12.238964] (-) TimerEvent: {}
+[12.339642] (-) TimerEvent: {}
+[12.440359] (-) TimerEvent: {}
+[12.541042] (-) TimerEvent: {}
+[12.641731] (-) TimerEvent: {}
+[12.742448] (-) TimerEvent: {}
+[12.843138] (-) TimerEvent: {}
+[12.943839] (-) TimerEvent: {}
+[13.044454] (-) TimerEvent: {}
+[13.145103] (-) TimerEvent: {}
+[13.245755] (-) TimerEvent: {}
+[13.346541] (-) TimerEvent: {}
+[13.448034] (-) TimerEvent: {}
+[13.549913] (-) TimerEvent: {}
+[13.651028] (-) TimerEvent: {}
+[13.752668] (-) TimerEvent: {}
+[13.855302] (-) TimerEvent: {}
+[13.956196] (-) TimerEvent: {}
+[14.056899] (-) TimerEvent: {}
+[14.157531] (-) TimerEvent: {}
+[14.258191] (-) TimerEvent: {}
+[14.358851] (-) TimerEvent: {}
+[14.459462] (-) TimerEvent: {}
+[14.560095] (-) TimerEvent: {}
+[14.660878] (-) TimerEvent: {}
+[14.761533] (-) TimerEvent: {}
+[14.862178] (-) TimerEvent: {}
+[14.962780] (-) TimerEvent: {}
+[14.990930] (cpp_package) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX executable cpp_try\x1b[0m\n'}
+[15.062943] (-) TimerEvent: {}
+[15.163568] (-) TimerEvent: {}
+[15.264199] (-) TimerEvent: {}
+[15.310968] (cpp_package) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX executable publisher\x1b[0m\n'}
+[15.364444] (-) TimerEvent: {}
+[15.465617] (-) TimerEvent: {}
+[15.534989] (cpp_package) StdoutLine: {'line': b'[ 70%] Built target cpp_try\n'}
+[15.565836] (-) TimerEvent: {}
+[15.666582] (-) TimerEvent: {}
+[15.767086] (-) TimerEvent: {}
+[15.867835] (-) TimerEvent: {}
+[15.887491] (cpp_package) StdoutLine: {'line': b'[ 70%] Built target publisher\n'}
+[15.967983] (-) TimerEvent: {}
+[16.068561] (-) TimerEvent: {}
+[16.169249] (-) TimerEvent: {}
+[16.269953] (-) TimerEvent: {}
+[16.370831] (-) TimerEvent: {}
+[16.471762] (-) TimerEvent: {}
+[16.572407] (-) TimerEvent: {}
+[16.672973] (-) TimerEvent: {}
+[16.773500] (-) TimerEvent: {}
+[16.874069] (-) TimerEvent: {}
+[16.974739] (-) TimerEvent: {}
+[17.075360] (-) TimerEvent: {}
+[17.176081] (-) TimerEvent: {}
+[17.276617] (-) TimerEvent: {}
+[17.377125] (-) TimerEvent: {}
+[17.477632] (-) TimerEvent: {}
+[17.578259] (-) TimerEvent: {}
+[17.678887] (-) TimerEvent: {}
+[17.779376] (-) TimerEvent: {}
+[17.879901] (-) TimerEvent: {}
+[17.980438] (-) TimerEvent: {}
+[18.080881] (-) TimerEvent: {}
+[18.181307] (-) TimerEvent: {}
+[18.281798] (-) TimerEvent: {}
+[18.382418] (-) TimerEvent: {}
+[18.482994] (-) TimerEvent: {}
+[18.583422] (-) TimerEvent: {}
+[18.683938] (-) TimerEvent: {}
+[18.784389] (-) TimerEvent: {}
+[18.884861] (-) TimerEvent: {}
+[18.985336] (-) TimerEvent: {}
+[19.085832] (-) TimerEvent: {}
+[19.186409] (-) TimerEvent: {}
+[19.288468] (-) TimerEvent: {}
+[19.389197] (-) TimerEvent: {}
+[19.489923] (-) TimerEvent: {}
+[19.590472] (-) TimerEvent: {}
+[19.691116] (-) TimerEvent: {}
+[19.791583] (-) TimerEvent: {}
+[19.892109] (-) TimerEvent: {}
+[19.992628] (-) TimerEvent: {}
+[20.093140] (-) TimerEvent: {}
+[20.193578] (-) TimerEvent: {}
+[20.294051] (-) TimerEvent: {}
+[20.394478] (-) TimerEvent: {}
+[20.494945] (-) TimerEvent: {}
+[20.595451] (-) TimerEvent: {}
+[20.695915] (-) TimerEvent: {}
+[20.796387] (-) TimerEvent: {}
+[20.896855] (-) TimerEvent: {}
+[20.997364] (-) TimerEvent: {}
+[21.097934] (-) TimerEvent: {}
+[21.198402] (-) TimerEvent: {}
+[21.298847] (-) TimerEvent: {}
+[21.399346] (-) TimerEvent: {}
+[21.499890] (-) TimerEvent: {}
+[21.600456] (-) TimerEvent: {}
+[21.701021] (-) TimerEvent: {}
+[21.801542] (-) TimerEvent: {}
+[21.902067] (-) TimerEvent: {}
+[22.002629] (-) TimerEvent: {}
+[22.103450] (-) TimerEvent: {}
+[22.203936] (-) TimerEvent: {}
+[22.304477] (-) TimerEvent: {}
+[22.405086] (-) TimerEvent: {}
+[22.505620] (-) TimerEvent: {}
+[22.606110] (-) TimerEvent: {}
+[22.706596] (-) TimerEvent: {}
+[22.807076] (-) TimerEvent: {}
+[22.907589] (-) TimerEvent: {}
+[23.008038] (-) TimerEvent: {}
+[23.108523] (-) TimerEvent: {}
+[23.209090] (-) TimerEvent: {}
+[23.309794] (-) TimerEvent: {}
+[23.410408] (-) TimerEvent: {}
+[23.511053] (-) TimerEvent: {}
+[23.611624] (-) TimerEvent: {}
+[23.712186] (-) TimerEvent: {}
+[23.812758] (-) TimerEvent: {}
+[23.913323] (-) TimerEvent: {}
+[24.013854] (-) TimerEvent: {}
+[24.114433] (-) TimerEvent: {}
+[24.214961] (-) TimerEvent: {}
+[24.315636] (-) TimerEvent: {}
+[24.405850] (cpp_package) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking CXX executable subscriber\x1b[0m\n'}
+[24.415801] (-) TimerEvent: {}
+[24.516333] (-) TimerEvent: {}
+[24.616822] (-) TimerEvent: {}
+[24.717397] (-) TimerEvent: {}
+[24.719902] (cpp_package) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX executable cpp_try2\x1b[0m\n'}
+[24.817555] (-) TimerEvent: {}
+[24.918123] (-) TimerEvent: {}
+[25.019782] (-) TimerEvent: {}
+[25.120416] (-) TimerEvent: {}
+[25.221032] (-) TimerEvent: {}
+[25.321586] (-) TimerEvent: {}
+[25.422173] (-) TimerEvent: {}
+[25.488853] (cpp_package) StdoutLine: {'line': b'[ 90%] Built target subscriber\n'}
+[25.522306] (-) TimerEvent: {}
+[25.622872] (-) TimerEvent: {}
+[25.723435] (-) TimerEvent: {}
+[25.736036] (cpp_package) StdoutLine: {'line': b'[ 90%] Built target cpp_try2\n'}
+[25.738348] (cpp_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[25.742523] (cpp_package) CommandEnded: {'returncode': 2}
+[25.768173] (cpp_package) JobEnded: {'identifier': 'cpp_package', 'rc': 2}
+[25.779358] (-) EventReactorShutdown: {}

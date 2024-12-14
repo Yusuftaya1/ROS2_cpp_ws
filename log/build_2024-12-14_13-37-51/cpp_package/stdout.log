@@ -1,0 +1,12 @@
+[35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_try[0m
+[35m[1mConsolidate compiler generated dependencies of target client[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_try2[0m
+[35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[35m[1mConsolidate compiler generated dependencies of target service[0m
+[ 16%] Built target subscriber
+[ 41%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[ 41%] Built target cpp_try
+[ 66%] Built target service
+[ 75%] Built target publisher
+[ 91%] Built target cpp_try2

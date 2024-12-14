@@ -1,0 +1,9 @@
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client.cpp:17:18:[m[K [01;31m[Kerror: [m[K‘[01m[Katool[m[K’ was not declared in this scope; did you mean ‘[01m[Katoll[m[K’?
+   17 |     request->a = [01;31m[Katool[m[K(argv[1]);
+      |                  [01;31m[K^~~~~[m[K
+      |                  [32m[Katoll[m[K
+gmake[2]: *** [CMakeFiles/client.dir/build.make:76: CMakeFiles/client.dir/src/client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:277: CMakeFiles/client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

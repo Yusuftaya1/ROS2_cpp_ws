@@ -1,0 +1,103 @@
+[0.032s] Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
+[0.138s] [35m[1mConsolidate compiler generated dependencies of target service[0m
+[0.172s] [ 40%] Built target subscriber
+[0.173s] [ 40%] Built target publisher
+[0.175s] [ 60%] Built target cpp_try2
+[0.177s] [ 80%] Built target cpp_try
+[0.188s] [ 90%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m
+[5.629s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:6:27:[m[K [01;31m[Kerror: [m[Kusing-declaration may not name namespace ‘[01m[Kexample_interfaces::srv[m[K’
+[5.630s]     6 | using example_interfaces::[01;31m[Ksrv[m[K
+[5.630s]       |                           [01;31m[K^~~[m[K
+[5.631s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:6:30:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kvoid[m[K’
+[5.631s]     6 | using example_interfaces::srv
+[5.631s]       |                              [01;31m[K^[m[K
+[5.632s]       |                              [32m[K;[m[K
+[5.632s]     7 | 
+[5.632s]     8 | [32m[Kvoid[m[K add(const std::shared_ptr<AddTwoInts::Request> request,std::shared_ptr<AddTwoInts::Response> response){
+[5.633s]       | [32m[K~~~~[m[K                          
+[5.633s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:32:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInts[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’?
+[5.634s]     8 | void add(const std::shared_ptr<[01;31m[KAddTwoInts[m[K::Request> request,std::shared_ptr<AddTwoInts::Response> response){
+[5.634s]       |                                [01;31m[K^~~~~~~~~~[m[K
+[5.634s]       |                                [32m[Kexample_interfaces::srv::AddTwoInts[m[K
+[5.635s] In file included from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+[5.635s]                  from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:2[m[K:
+[5.635s] [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:265:8:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’ declared here
+[5.636s]   265 | struct [01;36m[KAddTwoInts[m[K
+[5.636s]       |        [01;36m[K^~~~~~~~~~[m[K
+[5.636s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.637s]     8 | void add(const std::shared_ptr<AddTwoInts::Request[01;31m[K>[m[K request,std::shared_ptr<AddTwoInts::Response> response){
+[5.637s]       |                                                   [01;31m[K^[m[K
+[5.637s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:32:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInts[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’?
+[5.637s]     8 | void add(const std::shared_ptr<[01;31m[KAddTwoInts[m[K::Request> request,std::shared_ptr<AddTwoInts::Response> response){
+[5.638s]       |                                [01;31m[K^~~~~~~~~~[m[K
+[5.638s]       |                                [32m[Kexample_interfaces::srv::AddTwoInts[m[K
+[5.638s] In file included from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+[5.638s]                  from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:2[m[K:
+[5.638s] [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:265:8:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’ declared here
+[5.639s]   265 | struct [01;36m[KAddTwoInts[m[K
+[5.639s]       |        [01;36m[K^~~~~~~~~~[m[K
+[5.639s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.639s]     8 | void add(const std::shared_ptr<AddTwoInts::Request[01;31m[K>[m[K request,std::shared_ptr<AddTwoInts::Response> response){
+[5.639s]       |                                                   [01;31m[K^[m[K
+[5.639s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:32:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInts[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’?
+[5.640s]     8 | void add(const std::shared_ptr<[01;31m[KAddTwoInts[m[K::Request> request,std::shared_ptr<AddTwoInts::Response> response){
+[5.640s]       |                                [01;31m[K^~~~~~~~~~[m[K
+[5.640s]       |                                [32m[Kexample_interfaces::srv::AddTwoInts[m[K
+[5.640s] In file included from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+[5.640s]                  from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:2[m[K:
+[5.641s] [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:265:8:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’ declared here
+[5.641s]   265 | struct [01;36m[KAddTwoInts[m[K
+[5.641s]       |        [01;36m[K^~~~~~~~~~[m[K
+[5.641s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:51:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.641s]     8 | void add(const std::shared_ptr<AddTwoInts::Request[01;31m[K>[m[K request,std::shared_ptr<AddTwoInts::Response> response){
+[5.642s]       |                                                   [01;31m[K^[m[K
+[5.642s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:16:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+[5.642s]     8 | void add(const [01;31m[Kstd[m[K::shared_ptr<AddTwoInts::Request> request,std::shared_ptr<AddTwoInts::Response> response){
+[5.643s]       |                [01;31m[K^~~[m[K
+[5.643s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:32:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInts[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’?
+[5.643s]     8 | void add(const std::shared_ptr<[01;31m[KAddTwoInts[m[K::Request> request,std::shared_ptr<AddTwoInts::Response> response){
+[5.643s]       |                                [01;31m[K^~~~~~~~~~[m[K
+[5.643s]       |                                [32m[Kexample_interfaces::srv::AddTwoInts[m[K
+[5.644s] In file included from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+[5.644s]                  from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:2[m[K:
+[5.644s] [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:265:8:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’ declared here
+[5.644s]   265 | struct [01;36m[KAddTwoInts[m[K
+[5.644s]       |        [01;36m[K^~~~~~~~~~[m[K
+[5.644s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:6:[m[K [01;31m[Kerror: [m[Kvariable or field ‘[01m[Kadd[m[K’ declared void
+[5.644s]     8 | void [01;31m[Kadd[m[K(const std::shared_ptr<AddTwoInts::Request> request,std::shared_ptr<AddTwoInts::Response> response){
+[5.645s]       |      [01;31m[K^~~[m[K
+[5.645s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:10:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kconst[m[K’
+[5.645s]     8 | void add([01;31m[Kconst[m[K std::shared_ptr<AddTwoInts::Request> request,std::shared_ptr<AddTwoInts::Response> response){
+[5.645s]       |          [01;31m[K^~~~~[m[K
+[5.645s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:77:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInts[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’?
+[5.645s]     8 | void add(const std::shared_ptr<AddTwoInts::Request> request,std::shared_ptr<[01;31m[KAddTwoInts[m[K::Response> response){
+[5.645s]       |                                                                             [01;31m[K^~~~~~~~~~[m[K
+[5.646s]       |                                                                             [32m[Kexample_interfaces::srv::AddTwoInts[m[K
+[5.646s] In file included from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+[5.646s]                  from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:2[m[K:
+[5.646s] [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:265:8:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’ declared here
+[5.646s]   265 | struct [01;36m[KAddTwoInts[m[K
+[5.646s]       |        [01;36m[K^~~~~~~~~~[m[K
+[5.647s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:8:97:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.647s]     8 | void add(const std::shared_ptr<AddTwoInts::Request> request,std::shared_ptr<AddTwoInts::Response[01;31m[K>[m[K response){
+[5.647s]       |                                                                                                 [01;31m[K^[m[K
+[5.647s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[5.647s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:17:19:[m[K [01;31m[Kerror: [m[K‘[01m[KAddTwoInts[m[K’ was not declared in this scope; did you mean ‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’?
+[5.647s]    17 |   rclcpp::Service<[01;31m[KAddTwoInts[m[K>::SharedPtr service =node->create_service<AddTwoInts>("add_two_ints", &add);
+[5.647s]       |                   [01;31m[K^~~~~~~~~~[m[K
+[5.648s]       |                   [32m[Kexample_interfaces::srv::AddTwoInts[m[K
+[5.648s] In file included from [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/add_two_ints.hpp:7[m[K,
+[5.648s]                  from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:2[m[K:
+[5.648s] [01m[K/opt/ros/humble/include/example_interfaces/example_interfaces/srv/detail/add_two_ints__struct.hpp:265:8:[m[K [01;36m[Knote: [m[K‘[01m[Kexample_interfaces::srv::AddTwoInts[m[K’ declared here
+[5.648s]   265 | struct [01;36m[KAddTwoInts[m[K
+[5.648s]       |        [01;36m[K^~~~~~~~~~[m[K
+[5.648s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:17:29:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[5.649s]    17 |   rclcpp::Service<AddTwoInts[01;31m[K>[m[K::SharedPtr service =node->create_service<AddTwoInts>("add_two_ints", &add);
+[5.649s]       |                             [01;31m[K^[m[K
+[5.649s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service.cpp:17:42:[m[K [01;31m[Kerror: [m[Kexpected initializer before ‘[01m[Kservice[m[K’
+[5.649s]    17 |   rclcpp::Service<AddTwoInts>::SharedPtr [01;31m[Kservice[m[K =node->create_service<AddTwoInts>("add_two_ints", &add);
+[5.649s]       |                                          [01;31m[K^~~~~~~[m[K
+[6.897s] gmake[2]: *** [CMakeFiles/service.dir/build.make:76: CMakeFiles/service.dir/src/service.cpp.o] Error 1
+[6.897s] gmake[1]: *** [CMakeFiles/Makefile2:249: CMakeFiles/service.dir/all] Error 2
+[6.897s] gmake: *** [Makefile:146: all] Error 2
+[6.904s] Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8

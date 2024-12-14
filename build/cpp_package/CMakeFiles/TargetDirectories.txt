@@ -3,6 +3,9 @@
 /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/cpp_try.dir
 /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/cpp_try2.dir
 /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/publisher.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/subscriber.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/service.dir
+/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/client.dir
 /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/test.dir
 /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/edit_cache.dir
 /home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/rebuild_cache.dir
