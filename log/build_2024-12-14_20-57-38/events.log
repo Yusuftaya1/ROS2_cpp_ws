@@ -1,0 +1,244 @@
+[0.000000] (-) TimerEvent: {}
+[0.001988] (cpp_package) JobQueued: {'identifier': 'cpp_package', 'dependencies': OrderedDict()}
+[0.002160] (cpp_package) JobStarted: {'identifier': 'cpp_package'}
+[0.025359] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'cmake'}
+[0.027732] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'build'}
+[0.030097] (cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tayya/cpp_pkg/build/cpp_package', '--', '-j8', '-l8'], 'cwd': '/home/tayya/cpp_pkg/build/cpp_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1366'), ('SYSTEMD_EXEC_PID', '1543'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5687'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/cpp_pkg/install:/home/tayya/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:12222'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1501,unix/Asus-Ubuntu:/tmp/.ICE-unix/1501'), ('INVOCATION_ID', '11614ac4895a46cead433481e3f5fc6a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0INPY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8e309289-df42-4e93-870c-fdc9c6f62956'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/cpp_pkg/build/cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.099206] (-) TimerEvent: {}
+[0.197586] (cpp_package) StdoutLine: {'line': b'[  2%] Built target cpp_package__cpp\n'}
+[0.200907] (-) TimerEvent: {}
+[0.203884] (cpp_package) StdoutLine: {'line': b'[  8%] Built target cpp_package__rosidl_generator_c\n'}
+[0.220751] (cpp_package) StdoutLine: {'line': b'[ 12%] Built target subscriber\n'}
+[0.228239] (cpp_package) StdoutLine: {'line': b'[ 17%] Built target cpp_try\n'}
+[0.232269] (cpp_package) StdoutLine: {'line': b'[ 21%] Built target cpp_try2\n'}
+[0.234999] (cpp_package) StdoutLine: {'line': b'[ 25%] Built target service\n'}
+[0.248632] (cpp_package) StdoutLine: {'line': b'[ 25%] Built target ament_cmake_python_copy_cpp_package\n'}
+[0.254121] (cpp_package) StdoutLine: {'line': b'[ 29%] Built target publisher\n'}
+[0.290015] (cpp_package) StdoutLine: {'line': b'[ 34%] Built target client\n'}
+[0.300117] (cpp_package) StdoutLine: {'line': b'[ 40%] Built target cpp_package__rosidl_typesupport_cpp\n'}
+[0.302354] (-) TimerEvent: {}
+[0.319672] (cpp_package) StdoutLine: {'line': b'[ 46%] Built target cpp_package__rosidl_typesupport_fastrtps_cpp\n'}
+[0.320191] (cpp_package) StdoutLine: {'line': b'[ 53%] Built target cpp_package__rosidl_typesupport_c\n'}
+[0.321341] (cpp_package) StdoutLine: {'line': b'[ 59%] Built target cpp_package__rosidl_typesupport_fastrtps_c\n'}
+[0.322386] (cpp_package) StdoutLine: {'line': b'[ 65%] Built target cpp_package__rosidl_typesupport_introspection_c\n'}
+[0.333694] (cpp_package) StdoutLine: {'line': b'[ 72%] Built target cpp_package__rosidl_typesupport_introspection_cpp\n'}
+[0.376864] (cpp_package) StdoutLine: {'line': b'[ 72%] Built target cpp_package\n'}
+[0.402535] (-) TimerEvent: {}
+[0.403821] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_class\x1b[0m\n'}
+[0.430559] (cpp_package) StdoutLine: {'line': b'[ 74%] Built target cpp_package__py\n'}
+[0.432674] (cpp_package) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX executable client_class\x1b[0m\n'}
+[0.454290] (cpp_package) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object CMakeFiles/service_class.dir/src/service_class.cpp.o\x1b[0m\n'}
+[0.483539] (cpp_package) StdoutLine: {'line': b'[ 82%] Built target cpp_package__rosidl_generator_py\n'}
+[0.503005] (-) TimerEvent: {}
+[0.511860] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[0.523841] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[0.524323] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[0.578637] (cpp_package) StdoutLine: {'line': b'[ 87%] Built target cpp_package__rosidl_typesupport_c__pyext\n'}
+[0.593016] (cpp_package) StdoutLine: {'line': b'[ 91%] Built target cpp_package__rosidl_typesupport_introspection_c__pyext\n'}
+[0.602701] (cpp_package) StdoutLine: {'line': b'[ 95%] Built target cpp_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.603119] (-) TimerEvent: {}
+[0.675056] (cpp_package) StderrLine: {'line': b"/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':\n"}
+[0.677604] (cpp_package) StderrLine: {'line': b"(.text+0x1b): undefined reference to `main'\n"}
+[0.681502] (cpp_package) StderrLine: {'line': b'collect2: error: ld returned 1 exit status\n'}
+[0.685833] (cpp_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client_class.dir/build.make:191: client_class] Error 1\n'}
+[0.686885] (cpp_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:792: CMakeFiles/client_class.dir/all] Error 2\n'}
+[0.687445] (cpp_package) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[0.703281] (-) TimerEvent: {}
+[0.803761] (-) TimerEvent: {}
+[0.904191] (-) TimerEvent: {}
+[1.004720] (-) TimerEvent: {}
+[1.036547] (cpp_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.038560] (cpp_package) StdoutLine: {'line': b'writing cpp_package.egg-info/PKG-INFO\n'}
+[1.039011] (cpp_package) StdoutLine: {'line': b'writing dependency_links to cpp_package.egg-info/dependency_links.txt\n'}
+[1.039347] (cpp_package) StdoutLine: {'line': b'writing top-level names to cpp_package.egg-info/top_level.txt\n'}
+[1.044534] (cpp_package) StdoutLine: {'line': b"reading manifest file 'cpp_package.egg-info/SOURCES.txt'\n"}
+[1.045981] (cpp_package) StdoutLine: {'line': b"writing manifest file 'cpp_package.egg-info/SOURCES.txt'\n"}
+[1.104886] (-) TimerEvent: {}
+[1.113299] (cpp_package) StdoutLine: {'line': b'[ 95%] Built target ament_cmake_python_build_cpp_package_egg\n'}
+[1.205072] (-) TimerEvent: {}
+[1.305566] (-) TimerEvent: {}
+[1.406084] (-) TimerEvent: {}
+[1.506681] (-) TimerEvent: {}
+[1.607244] (-) TimerEvent: {}
+[1.707796] (-) TimerEvent: {}
+[1.808346] (-) TimerEvent: {}
+[1.908919] (-) TimerEvent: {}
+[2.009495] (-) TimerEvent: {}
+[2.110048] (-) TimerEvent: {}
+[2.210616] (-) TimerEvent: {}
+[2.311204] (-) TimerEvent: {}
+[2.411802] (-) TimerEvent: {}
+[2.512435] (-) TimerEvent: {}
+[2.613054] (-) TimerEvent: {}
+[2.713579] (-) TimerEvent: {}
+[2.814157] (-) TimerEvent: {}
+[2.914788] (-) TimerEvent: {}
+[3.015360] (-) TimerEvent: {}
+[3.115988] (-) TimerEvent: {}
+[3.216658] (-) TimerEvent: {}
+[3.317265] (-) TimerEvent: {}
+[3.417774] (-) TimerEvent: {}
+[3.518238] (-) TimerEvent: {}
+[3.618717] (-) TimerEvent: {}
+[3.719246] (-) TimerEvent: {}
+[3.819711] (-) TimerEvent: {}
+[3.920181] (-) TimerEvent: {}
+[4.020622] (-) TimerEvent: {}
+[4.121096] (-) TimerEvent: {}
+[4.221605] (-) TimerEvent: {}
+[4.322091] (-) TimerEvent: {}
+[4.422618] (-) TimerEvent: {}
+[4.523055] (-) TimerEvent: {}
+[4.623583] (-) TimerEvent: {}
+[4.724032] (-) TimerEvent: {}
+[4.824542] (-) TimerEvent: {}
+[4.924996] (-) TimerEvent: {}
+[5.025512] (-) TimerEvent: {}
+[5.126052] (-) TimerEvent: {}
+[5.226608] (-) TimerEvent: {}
+[5.327094] (-) TimerEvent: {}
+[5.427606] (-) TimerEvent: {}
+[5.528082] (-) TimerEvent: {}
+[5.628622] (-) TimerEvent: {}
+[5.729168] (-) TimerEvent: {}
+[5.829786] (-) TimerEvent: {}
+[5.930600] (-) TimerEvent: {}
+[6.031137] (-) TimerEvent: {}
+[6.131576] (-) TimerEvent: {}
+[6.232041] (-) TimerEvent: {}
+[6.332533] (-) TimerEvent: {}
+[6.433025] (-) TimerEvent: {}
+[6.533531] (-) TimerEvent: {}
+[6.634068] (-) TimerEvent: {}
+[6.734577] (-) TimerEvent: {}
+[6.835092] (-) TimerEvent: {}
+[6.935570] (-) TimerEvent: {}
+[7.036067] (-) TimerEvent: {}
+[7.136545] (-) TimerEvent: {}
+[7.237039] (-) TimerEvent: {}
+[7.337617] (-) TimerEvent: {}
+[7.438114] (-) TimerEvent: {}
+[7.466797] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCapitalFullName\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.467272] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<\x1b[01;31m\x1b[KCapitalFullName\x1b[m\x1b[K::Request> request , std::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.467510] (cpp_package) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.467687] (cpp_package) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\n'}
+[7.467838] (cpp_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7\x1b[m\x1b[K,\n'}
+[7.467987] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2\x1b[m\x1b[K:\n'}
+[7.468129] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.468628] (cpp_package) StderrLine: {'line': b'  266 | struct \x1b[01;36m\x1b[KCapitalFullName\x1b[m\x1b[K\n'}
+[7.468805] (cpp_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.468976] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.469124] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request , std::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.469269] (cpp_package) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.469414] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCapitalFullName\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.469610] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<\x1b[01;31m\x1b[KCapitalFullName\x1b[m\x1b[K::Request> request , std::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.469824] (cpp_package) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.470277] (cpp_package) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\n'}
+[7.470435] (cpp_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7\x1b[m\x1b[K,\n'}
+[7.470617] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2\x1b[m\x1b[K:\n'}
+[7.470762] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.470909] (cpp_package) StderrLine: {'line': b'  266 | struct \x1b[01;36m\x1b[KCapitalFullName\x1b[m\x1b[K\n'}
+[7.471092] (cpp_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.471442] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.471626] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request , std::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.471776] (cpp_package) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.471917] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCapitalFullName\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.472069] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<\x1b[01;31m\x1b[KCapitalFullName\x1b[m\x1b[K::Request> request , std::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.472444] (cpp_package) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.472629] (cpp_package) StderrLine: {'line': b'      |                                                    \x1b[32m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\n'}
+[7.472795] (cpp_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7\x1b[m\x1b[K,\n'}
+[7.472936] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2\x1b[m\x1b[K:\n'}
+[7.473094] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.473292] (cpp_package) StderrLine: {'line': b'  266 | struct \x1b[01;36m\x1b[KCapitalFullName\x1b[m\x1b[K\n'}
+[7.473491] (cpp_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.473987] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:76:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.474140] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request\x1b[01;31m\x1b[K>\x1b[m\x1b[K request , std::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.474301] (cpp_package) StderrLine: {'line': b'      |                                                                            \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.474637] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:36:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.474833] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.474997] (cpp_package) StderrLine: {'line': b'      |                                    \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.475137] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:52:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCapitalFullName\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.475277] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<\x1b[01;31m\x1b[KCapitalFullName\x1b[m\x1b[K::Request> request , std::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.475430] (cpp_package) StderrLine: {'line': b'      |                                                    \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.475612] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:30:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[7.475755] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(\x1b[01;31m\x1b[Kconst\x1b[m\x1b[K std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.475888] (cpp_package) StderrLine: {'line': b'      |                              \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[7.476036] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCapitalFullName\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.476184] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<\x1b[01;31m\x1b[KCapitalFullName\x1b[m\x1b[K::Response> response)\n'}
+[7.476328] (cpp_package) StderrLine: {'line': b'      |                                                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.476504] (cpp_package) StderrLine: {'line': b'      |                                                                                                        \x1b[32m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\n'}
+[7.476685] (cpp_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7\x1b[m\x1b[K,\n'}
+[7.476833] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2\x1b[m\x1b[K:\n'}
+[7.476967] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.477114] (cpp_package) StderrLine: {'line': b'  266 | struct \x1b[01;36m\x1b[KCapitalFullName\x1b[m\x1b[K\n'}
+[7.477335] (cpp_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.477668] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:129:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.477968] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[7.478255] (cpp_package) StderrLine: {'line': b'      |                                                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.478744] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCapitalFullName\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.479006] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<\x1b[01;31m\x1b[KCapitalFullName\x1b[m\x1b[K::Response> response)\n'}
+[7.479215] (cpp_package) StderrLine: {'line': b'      |                                                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.479388] (cpp_package) StderrLine: {'line': b'      |                                                                                                        \x1b[32m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\n'}
+[7.479583] (cpp_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7\x1b[m\x1b[K,\n'}
+[7.479731] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2\x1b[m\x1b[K:\n'}
+[7.479869] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.480007] (cpp_package) StderrLine: {'line': b'  266 | struct \x1b[01;36m\x1b[KCapitalFullName\x1b[m\x1b[K\n'}
+[7.480140] (cpp_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.480288] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:129:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.480427] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[7.480616] (cpp_package) StderrLine: {'line': b'      |                                                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.480761] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCapitalFullName\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[7.480899] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<\x1b[01;31m\x1b[KCapitalFullName\x1b[m\x1b[K::Response> response)\n'}
+[7.481034] (cpp_package) StderrLine: {'line': b'      |                                                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.481166] (cpp_package) StderrLine: {'line': b'      |                                                                                                        \x1b[32m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\n'}
+[7.481322] (cpp_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7\x1b[m\x1b[K,\n'}
+[7.481469] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2\x1b[m\x1b[K:\n'}
+[7.481626] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcpp_package::srv::CapitalFullName\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[7.481769] (cpp_package) StderrLine: {'line': b'  266 | struct \x1b[01;36m\x1b[KCapitalFullName\x1b[m\x1b[K\n'}
+[7.481916] (cpp_package) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.482058] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:129:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[7.482204] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response\x1b[01;31m\x1b[K>\x1b[m\x1b[K response)\n'}
+[7.482336] (cpp_package) StderrLine: {'line': b'      |                                                                                                                                 \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.482482] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kinvalid template-id\n'}
+[7.482629] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.482767] (cpp_package) StderrLine: {'line': b'      |                                                                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.482898] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:104:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KCapitalFullName\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[7.483027] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<\x1b[01;31m\x1b[KCapitalFullName\x1b[m\x1b[K::Response> response)\n'}
+[7.483155] (cpp_package) StderrLine: {'line': b'      |                                                                                                        \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.483284] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:88:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kclass template placeholder \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr\x1b[m\x1b[K\xe2\x80\x99 not permitted in this context\n'}
+[7.483434] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , \x1b[01;31m\x1b[Kstd\x1b[m\x1b[K::shared_ptr<CapitalFullName::Response> response)\n'}
+[7.483627] (cpp_package) StderrLine: {'line': b'      |                                                                                        \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[7.483781] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:139:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 at end of member declaration\n'}
+[7.483925] (cpp_package) StderrLine: {'line': b'   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response> response\x1b[01;31m\x1b[K)\x1b[m\x1b[K\n'}
+[7.484067] (cpp_package) StderrLine: {'line': b'      |                                                                                                                                           \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.484228] (cpp_package) StderrLine: {'line': b'      |                                                                                                                                            \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.484407] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:11:2:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected \xe2\x80\x98\x1b[01m\x1b[K;\x1b[m\x1b[K\xe2\x80\x99 after class definition\n'}
+[7.484592] (cpp_package) StderrLine: {'line': b'   11 | }\n'}
+[7.484719] (cpp_package) StderrLine: {'line': b'      |  \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[7.484841] (cpp_package) StderrLine: {'line': b'      |  \x1b[32m\x1b[K;\x1b[m\x1b[K\n'}
+[7.484958] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:5:25:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktwo or more data types in declaration of \xe2\x80\x98\x1b[01m\x1b[Ktype name\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.485099] (cpp_package) StderrLine: {'line': b'    5 | using CapitalFullName = \x1b[01;31m\x1b[Kcpp_package\x1b[m\x1b[K::srv::CapitalFullName\n'}
+[7.485219] (cpp_package) StderrLine: {'line': b'      |                         \x1b[01;31m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.538302] (-) TimerEvent: {}
+[7.638814] (-) TimerEvent: {}
+[7.740415] (-) TimerEvent: {}
+[7.844796] (-) TimerEvent: {}
+[7.945384] (-) TimerEvent: {}
+[8.045976] (-) TimerEvent: {}
+[8.146657] (-) TimerEvent: {}
+[8.247235] (-) TimerEvent: {}
+[8.347825] (-) TimerEvent: {}
+[8.448438] (-) TimerEvent: {}
+[8.549066] (-) TimerEvent: {}
+[8.649680] (-) TimerEvent: {}
+[8.750330] (-) TimerEvent: {}
+[8.851022] (-) TimerEvent: {}
+[8.951754] (-) TimerEvent: {}
+[9.052311] (-) TimerEvent: {}
+[9.137693] (cpp_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/service_class.dir/build.make:76: CMakeFiles/service_class.dir/src/service_class.cpp.o] Error 1\n'}
+[9.138126] (cpp_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:764: CMakeFiles/service_class.dir/all] Error 2\n'}
+[9.138431] (cpp_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.142812] (cpp_package) CommandEnded: {'returncode': 2}
+[9.152654] (-) TimerEvent: {}
+[9.168767] (cpp_package) JobEnded: {'identifier': 'cpp_package', 'rc': 2}
+[9.179690] (-) EventReactorShutdown: {}

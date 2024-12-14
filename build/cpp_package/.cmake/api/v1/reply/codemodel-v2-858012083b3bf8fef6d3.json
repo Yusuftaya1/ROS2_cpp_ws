@@ -1,0 +1,305 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-0f87091b296232a8ad00.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					]
+				},
+				{
+					"build" : "cpp_package__py",
+					"jsonFile" : "directory-cpp_package__py-1ed4bc177906ddc87bfe.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "/home/tayya/cpp_pkg/build/cpp_package/cpp_package__py",
+					"targetIndexes" : 
+					[
+						6
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "cpp_package",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_build_cpp_package_egg::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_build_cpp_package_egg-e6c374da33e178576898.json",
+					"name" : "ament_cmake_python_build_cpp_package_egg",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ament_cmake_python_copy_cpp_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ament_cmake_python_copy_cpp_package-54bf1d08212d031b1942.json",
+					"name" : "ament_cmake_python_copy_cpp_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client-6ab4c28122967aa95b9b.json",
+					"name" : "client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "client_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-client_class-ef2b1a721fa0e2e41116.json",
+					"name" : "client_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package-0d0765e996a4dbefad17.json",
+					"name" : "cpp_package",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__cpp-ca6bae3b1cec864d36d9.json",
+					"name" : "cpp_package__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "cpp_package__py::@ab69a135f38eeb606888",
+					"jsonFile" : "target-cpp_package__py-0dee044ae1e78edf5169.json",
+					"name" : "cpp_package__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_generator_c-e48205a6e125cead50e4.json",
+					"name" : "cpp_package__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_generator_py::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_generator_py-6ac9c1124793db830e46.json",
+					"name" : "cpp_package__rosidl_generator_py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_typesupport_c-e9199a64d6ec30b7b9e6.json",
+					"name" : "cpp_package__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_typesupport_c__pyext-169e999be20cc4ea9fa6.json",
+					"name" : "cpp_package__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_typesupport_cpp-aa4b90ebd4649bd9a315.json",
+					"name" : "cpp_package__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_typesupport_fastrtps_c-6c54b0d6eb1cee1fc9f1.json",
+					"name" : "cpp_package__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_typesupport_fastrtps_c__pyext-aac1d4a27bad879e2db6.json",
+					"name" : "cpp_package__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_typesupport_fastrtps_cpp-365a66054099f10e5428.json",
+					"name" : "cpp_package__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_typesupport_introspection_c-7c30756b27d11cc9c3f4.json",
+					"name" : "cpp_package__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_typesupport_introspection_c__pyext-2a2d05627428bc6b463a.json",
+					"name" : "cpp_package__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package__rosidl_typesupport_introspection_cpp-4d647b9893f2882c4e9f.json",
+					"name" : "cpp_package__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_package_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_package_uninstall-d86fe5801bd85f4fb163.json",
+					"name" : "cpp_package_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_try::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_try-ca2b3383d0d18f8461bd.json",
+					"name" : "cpp_try",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "cpp_try2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-cpp_try2-b87dc50f882f0ea1801f.json",
+					"name" : "cpp_try2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "publisher::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-publisher-6e0caab14d05fe337858.json",
+					"name" : "publisher",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service-a9da8df0a7bef85eda02.json",
+					"name" : "service",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "service_class::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-service_class-d0130a5e4b8ba2a1e63f.json",
+					"name" : "service_class",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "subscriber::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-subscriber-5015ded3c12724cd0825.json",
+					"name" : "subscriber",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-a96f357e53a6da33aef7.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/tayya/cpp_pkg/build/cpp_package",
+		"source" : "/home/tayya/cpp_pkg/src/cpp_package"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

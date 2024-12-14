@@ -1,0 +1,82 @@
+[0.025s] Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
+[0.079s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.344s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.402s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.407s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.419s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.465s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.533s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.536s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.737s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.842s] -- Found example_interfaces: 0.9.3 (/opt/ros/humble/share/example_interfaces/cmake)
+[0.923s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.470s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.132s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.400s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.460s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.508s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.509s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.509s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.555s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.604s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.606s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.609s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/tayya/cpp_pkg/src/cpp_package/include>
+[2.609s] -- Configured cppcheck exclude dirs and/or files: 
+[2.611s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.611s] -- Configured cpplint exclude dirs and/or files: 
+[2.613s] -- Added test 'lint_cmake' to check CMake code style
+[2.615s] -- Added test 'uncrustify' to check C / C++ code style
+[2.616s] -- Configured uncrustify additional arguments: 
+[2.617s] -- Added test 'xmllint' to check XML markup files
+[2.622s] -- Configuring done
+[2.755s] -- Generating done
+[2.806s] -- Build files have been written to: /home/tayya/cpp_pkg/build/cpp_package
+[2.878s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.878s] [35m[1mConsolidate compiler generated dependencies of target cpp_try2[0m
+[2.881s] [35m[1mConsolidate compiler generated dependencies of target cpp_try[0m
+[2.881s] [35m[1mConsolidate compiler generated dependencies of target publisher[0m
+[2.881s] [35m[1mConsolidate compiler generated dependencies of target service[0m
+[2.886s] [35m[1mConsolidate compiler generated dependencies of target subscriber[0m
+[2.913s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.944s] [  6%] [32mBuilding CXX object CMakeFiles/cpp_try2.dir/src/cpp_try2.cpp.o[0m
+[2.945s] [  8%] Built target ament_cmake_python_copy_cpp_package
+[2.945s] [ 10%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
+[2.948s] [ 12%] [32mBuilding CXX object CMakeFiles/service.dir/src/service.cpp.o[0m
+[2.948s] [  8%] [32mBuilding CXX object CMakeFiles/cpp_try.dir/src/cpp_try.cpp.o[0m
+[2.948s] [ 14%] [32mBuilding CXX object CMakeFiles/subscriber.dir/src/subscriber.cpp.o[0m
+[2.989s] [35m[1mConsolidate compiler generated dependencies of target client[0m
+[3.045s] [ 17%] [32mBuilding CXX object CMakeFiles/client.dir/src/client.cpp.o[0m
+[4.182s] [ 17%] Built target cpp_package__cpp
+[4.226s] [ 19%] [32mBuilding C object CMakeFiles/cpp_package__rosidl_generator_c.dir/rosidl_generator_c/cpp_package/srv/detail/capital_full_name__functions.c.o[0m
+[4.300s] [ 21%] [32mBuilding CXX object CMakeFiles/service_class.dir/src/service_class.cpp.o[0m
+[4.434s] [ 23%] [32m[1mLinking CXX executable service_class[0m
+[4.579s] [ 25%] [32m[1mLinking C shared library libcpp_package__rosidl_generator_c.so[0m
+[4.848s] [ 25%] Built target cpp_package__rosidl_generator_c
+[4.981s] [ 27%] [32mBuilding CXX object CMakeFiles/client_class.dir/src/client_class.cpp.o[0m
+[4.993s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[4.993s] (.text+0x1b): undefined reference to `main'
+[4.996s] collect2: error: ld returned 1 exit status
+[5.000s] gmake[2]: *** [CMakeFiles/service_class.dir/build.make:183: service_class] Error 1
+[5.001s] gmake[1]: *** [CMakeFiles/Makefile2:762: CMakeFiles/service_class.dir/all] Error 2
+[5.001s] gmake[1]: *** Waiting for unfinished jobs....
+[5.050s] [ 29%] [32m[1mLinking CXX executable client_class[0m
+[5.315s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[5.315s] (.text+0x1b): undefined reference to `main'
+[5.323s] collect2: error: ld returned 1 exit status
+[5.326s] gmake[2]: *** [CMakeFiles/client_class.dir/build.make:183: client_class] Error 1
+[5.327s] gmake[1]: *** [CMakeFiles/Makefile2:788: CMakeFiles/client_class.dir/all] Error 2
+[17.811s] [ 31%] [32m[1mLinking CXX executable service[0m
+[18.426s] [ 31%] Built target service
+[18.533s] [ 34%] [32m[1mLinking CXX executable client[0m
+[19.185s] [ 34%] Built target client
+[21.281s] [ 36%] [32m[1mLinking CXX executable cpp_try[0m
+[21.460s] [ 38%] [32m[1mLinking CXX executable publisher[0m
+[21.904s] [ 38%] Built target cpp_try
+[22.213s] [ 38%] Built target publisher
+[32.044s] [ 40%] [32m[1mLinking CXX executable subscriber[0m
+[32.269s] [ 42%] [32m[1mLinking CXX executable cpp_try2[0m
+[33.344s] [ 42%] Built target subscriber
+[33.530s] [ 42%] Built target cpp_try2
+[33.533s] gmake: *** [Makefile:146: all] Error 2
+[33.537s] Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8

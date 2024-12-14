@@ -1,0 +1,52 @@
+[0.029s] Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
+[0.154s] [  2%] Built target cpp_package__cpp
+[0.155s] [  8%] Built target cpp_package__rosidl_generator_c
+[0.175s] [ 12%] Built target subscriber
+[0.177s] [ 17%] Built target cpp_try
+[0.187s] [ 17%] Built target ament_cmake_python_copy_cpp_package
+[0.194s] [ 21%] Built target cpp_try2
+[0.195s] [ 25%] Built target publisher
+[0.224s] [ 29%] Built target service
+[0.274s] [ 36%] Built target cpp_package__rosidl_typesupport_introspection_c
+[0.275s] [ 42%] Built target cpp_package__rosidl_typesupport_cpp
+[0.280s] [ 46%] Built target client
+[0.285s] [ 53%] Built target cpp_package__rosidl_typesupport_fastrtps_c
+[0.295s] [ 59%] Built target cpp_package__rosidl_typesupport_introspection_cpp
+[0.298s] [ 65%] Built target cpp_package__rosidl_typesupport_fastrtps_cpp
+[0.302s] [ 72%] Built target cpp_package__rosidl_typesupport_c
+[0.345s] [ 72%] Built target cpp_package
+[0.382s] [35m[1mConsolidate compiler generated dependencies of target service_class[0m
+[0.399s] [ 74%] Built target cpp_package__py
+[0.410s] [ 76%] [32m[1mLinking CXX executable client_class[0m
+[0.455s] [ 78%] [32mBuilding CXX object CMakeFiles/service_class.dir/src/service_class.cpp.o[0m
+[0.463s] [ 82%] Built target cpp_package__rosidl_generator_py
+[0.531s] [ 87%] Built target cpp_package__rosidl_typesupport_fastrtps_c__pyext
+[0.538s] [ 91%] Built target cpp_package__rosidl_typesupport_c__pyext
+[0.541s] [ 95%] Built target cpp_package__rosidl_typesupport_introspection_c__pyext
+[0.629s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.630s] (.text+0x1b): undefined reference to `main'
+[0.634s] collect2: error: ld returned 1 exit status
+[0.638s] gmake[2]: *** [CMakeFiles/client_class.dir/build.make:191: client_class] Error 1
+[0.639s] gmake[1]: *** [CMakeFiles/Makefile2:792: CMakeFiles/client_class.dir/all] Error 2
+[0.639s] gmake[1]: *** Waiting for unfinished jobs....
+[0.954s] running egg_info
+[0.956s] writing cpp_package.egg-info/PKG-INFO
+[0.957s] writing dependency_links to cpp_package.egg-info/dependency_links.txt
+[0.957s] writing top-level names to cpp_package.egg-info/top_level.txt
+[0.964s] reading manifest file 'cpp_package.egg-info/SOURCES.txt'
+[0.965s] writing manifest file 'cpp_package.egg-info/SOURCES.txt'
+[1.036s] [ 95%] Built target ament_cmake_python_build_cpp_package_egg
+[2.217s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:31:48:[m[K [01;35m[Kwarning: [m[Kmissing terminating " character
+[2.217s]    31 |   auto node = std::make_shared<MyServiceNode>()[01;35m[K"[m[K;
+[2.217s]       |                                                [01;35m[K^[m[K
+[2.217s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:31:48:[m[K [01;31m[Kerror: [m[Kmissing terminating " character
+[2.218s]    31 |   auto node = std::make_shared<MyServiceNode>()[01;31m[K";[m[K
+[2.218s]       |                                                [01;31m[K^~[m[K
+[7.593s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[7.593s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:32:3:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K,[m[K’ or ‘[01m[K;[m[K’ before ‘[01m[Krclcpp[m[K’
+[7.594s]    32 |   [01;31m[Krclcpp[m[K::spin(node);   // the service starts to wait and manage requests
+[7.594s]       |   [01;31m[K^~~~~~[m[K
+[9.609s] gmake[2]: *** [CMakeFiles/service_class.dir/build.make:76: CMakeFiles/service_class.dir/src/service_class.cpp.o] Error 1
+[9.610s] gmake[1]: *** [CMakeFiles/Makefile2:764: CMakeFiles/service_class.dir/all] Error 2
+[9.610s] gmake: *** [Makefile:146: all] Error 2
+[9.614s] Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8

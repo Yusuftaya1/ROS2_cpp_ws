@@ -1,0 +1,42 @@
+[0.026s] Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
+[0.149s] [  6%] Built target cpp_package__rosidl_generator_c
+[0.151s] [  8%] Built target cpp_package__cpp
+[0.166s] [ 12%] Built target cpp_try2
+[0.172s] [ 17%] Built target cpp_try
+[0.173s] [ 21%] Built target publisher
+[0.175s] [ 21%] Built target ament_cmake_python_copy_cpp_package
+[0.183s] [ 25%] Built target subscriber
+[0.219s] [ 29%] Built target service
+[0.257s] [ 34%] Built target client
+[0.269s] [ 40%] Built target cpp_package__rosidl_typesupport_cpp
+[0.272s] [ 46%] Built target cpp_package__rosidl_typesupport_fastrtps_c
+[0.282s] [ 59%] Built target cpp_package__rosidl_typesupport_fastrtps_cpp
+[0.286s] [ 57%] Built target cpp_package__rosidl_typesupport_c
+[0.290s] [ 65%] Built target cpp_package__rosidl_typesupport_introspection_cpp
+[0.291s] [ 72%] Built target cpp_package__rosidl_typesupport_introspection_c
+[0.332s] [ 72%] Built target cpp_package
+[0.367s] [35m[1mConsolidate compiler generated dependencies of target service_class[0m
+[0.380s] [ 74%] [32m[1mLinking CXX executable client_class[0m
+[0.394s] [ 76%] Built target cpp_package__py
+[0.423s] [ 78%] [32mBuilding CXX object CMakeFiles/service_class.dir/src/service_class.cpp.o[0m
+[0.454s] [ 82%] Built target cpp_package__rosidl_generator_py
+[0.529s] [ 87%] Built target cpp_package__rosidl_typesupport_fastrtps_c__pyext
+[0.539s] [ 91%] Built target cpp_package__rosidl_typesupport_c__pyext
+[0.542s] [ 95%] Built target cpp_package__rosidl_typesupport_introspection_c__pyext
+[0.598s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.599s] (.text+0x1b): undefined reference to `main'
+[0.604s] collect2: error: ld returned 1 exit status
+[0.608s] gmake[2]: *** [CMakeFiles/client_class.dir/build.make:191: client_class] Error 1
+[0.608s] gmake[1]: *** [CMakeFiles/Makefile2:792: CMakeFiles/client_class.dir/all] Error 2
+[0.609s] gmake[1]: *** Waiting for unfinished jobs....
+[0.964s] running egg_info
+[0.966s] writing cpp_package.egg-info/PKG-INFO
+[0.967s] writing dependency_links to cpp_package.egg-info/dependency_links.txt
+[0.967s] writing top-level names to cpp_package.egg-info/top_level.txt
+[0.974s] reading manifest file 'cpp_package.egg-info/SOURCES.txt'
+[0.975s] writing manifest file 'cpp_package.egg-info/SOURCES.txt'
+[1.036s] [ 95%] Built target ament_cmake_python_build_cpp_package_egg
+[10.866s] [ 97%] [32m[1mLinking CXX executable service_class[0m
+[11.233s] [ 97%] Built target service_class
+[11.235s] gmake: *** [Makefile:146: all] Error 2
+[11.242s] Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8

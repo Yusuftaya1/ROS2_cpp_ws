@@ -1,0 +1,19 @@
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:15:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+   15 |         MyClientNode(Node[34m[K([m[K[01;31m[K"[m[K[32m[Kclient_node"[m[K),name_(passedName) , surname_(passedSurname)){
+      |                          [34m[K~[m[K[01;31m[K^[m[K[32m[K~~~~~~~~~~~~[m[K
+      |                           [32m[K)[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:15:27:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K)[m[K’ before string constant
+   15 |         MyClientNode[34m[K([m[KNode([01;31m[K"[m[K[32m[Kclient_node"[m[K),name_(passedName) , surname_(passedSurname)){
+      |                     [34m[K~[m[K     [01;31m[K^[m[K[32m[K~~~~~~~~~~~~[m[K
+      |                           [32m[K)[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:15:26:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   15 |         MyClientNode(Node[01;31m[K([m[K"client_node"),name_(passedName) , surname_(passedSurname)){
+      |                          [01;31m[K^[m[K
+      |                           [32m[K;[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:15:27:[m[K [01;31m[Kerror: [m[Kexpected unqualified-id before string constant
+   15 |         MyClientNode(Node([01;31m[K"client_node"[m[K),name_(passedName) , surname_(passedSurname)){
+      |                           [01;31m[K^~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client_class.dir/build.make:76: CMakeFiles/client_class.dir/src/client_class.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:792: CMakeFiles/client_class.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake: *** [Makefile:146: all] Error 2

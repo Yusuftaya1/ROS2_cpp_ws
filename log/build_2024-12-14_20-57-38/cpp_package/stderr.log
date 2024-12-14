@@ -1,0 +1,110 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/client_class.dir/build.make:191: client_class] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:792: CMakeFiles/client_class.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:52:[m[K [01;31m[Kerror: [m[K‘[01m[KCapitalFullName[m[K’ was not declared in this scope; did you mean ‘[01m[Kcpp_package::srv::CapitalFullName[m[K’?
+   10 |         void ComposeFullName(const std::shared_ptr<[01;31m[KCapitalFullName[m[K::Request> request , std::shared_ptr<CapitalFullName::Response> response)
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                    [32m[Kcpp_package::srv::CapitalFullName[m[K
+In file included from [01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7[m[K,
+                 from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2[m[K:
+[01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:[m[K [01;36m[Knote: [m[K‘[01m[Kcpp_package::srv::CapitalFullName[m[K’ declared here
+  266 | struct [01;36m[KCapitalFullName[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request[01;31m[K>[m[K request , std::shared_ptr<CapitalFullName::Response> response)
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:52:[m[K [01;31m[Kerror: [m[K‘[01m[KCapitalFullName[m[K’ was not declared in this scope; did you mean ‘[01m[Kcpp_package::srv::CapitalFullName[m[K’?
+   10 |         void ComposeFullName(const std::shared_ptr<[01;31m[KCapitalFullName[m[K::Request> request , std::shared_ptr<CapitalFullName::Response> response)
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                    [32m[Kcpp_package::srv::CapitalFullName[m[K
+In file included from [01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7[m[K,
+                 from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2[m[K:
+[01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:[m[K [01;36m[Knote: [m[K‘[01m[Kcpp_package::srv::CapitalFullName[m[K’ declared here
+  266 | struct [01;36m[KCapitalFullName[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request[01;31m[K>[m[K request , std::shared_ptr<CapitalFullName::Response> response)
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:52:[m[K [01;31m[Kerror: [m[K‘[01m[KCapitalFullName[m[K’ was not declared in this scope; did you mean ‘[01m[Kcpp_package::srv::CapitalFullName[m[K’?
+   10 |         void ComposeFullName(const std::shared_ptr<[01;31m[KCapitalFullName[m[K::Request> request , std::shared_ptr<CapitalFullName::Response> response)
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                    [32m[Kcpp_package::srv::CapitalFullName[m[K
+In file included from [01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7[m[K,
+                 from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2[m[K:
+[01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:[m[K [01;36m[Knote: [m[K‘[01m[Kcpp_package::srv::CapitalFullName[m[K’ declared here
+  266 | struct [01;36m[KCapitalFullName[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:76:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request[01;31m[K>[m[K request , std::shared_ptr<CapitalFullName::Response> response)
+      |                                                                            [01;31m[K^[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:36:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   10 |         void ComposeFullName(const [01;31m[Kstd[m[K::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response> response)
+      |                                    [01;31m[K^~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:52:[m[K [01;31m[Kerror: [m[K‘[01m[KCapitalFullName[m[K’ has not been declared
+   10 |         void ComposeFullName(const std::shared_ptr<[01;31m[KCapitalFullName[m[K::Request> request , std::shared_ptr<CapitalFullName::Response> response)
+      |                                                    [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:30:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   10 |         void ComposeFullName([01;31m[Kconst[m[K std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response> response)
+      |                              [01;31m[K^~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:104:[m[K [01;31m[Kerror: [m[K‘[01m[KCapitalFullName[m[K’ was not declared in this scope; did you mean ‘[01m[Kcpp_package::srv::CapitalFullName[m[K’?
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<[01;31m[KCapitalFullName[m[K::Response> response)
+      |                                                                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                                                                        [32m[Kcpp_package::srv::CapitalFullName[m[K
+In file included from [01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7[m[K,
+                 from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2[m[K:
+[01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:[m[K [01;36m[Knote: [m[K‘[01m[Kcpp_package::srv::CapitalFullName[m[K’ declared here
+  266 | struct [01;36m[KCapitalFullName[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:129:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response[01;31m[K>[m[K response)
+      |                                                                                                                                 [01;31m[K^[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:104:[m[K [01;31m[Kerror: [m[K‘[01m[KCapitalFullName[m[K’ was not declared in this scope; did you mean ‘[01m[Kcpp_package::srv::CapitalFullName[m[K’?
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<[01;31m[KCapitalFullName[m[K::Response> response)
+      |                                                                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                                                                        [32m[Kcpp_package::srv::CapitalFullName[m[K
+In file included from [01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7[m[K,
+                 from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2[m[K:
+[01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:[m[K [01;36m[Knote: [m[K‘[01m[Kcpp_package::srv::CapitalFullName[m[K’ declared here
+  266 | struct [01;36m[KCapitalFullName[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:129:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response[01;31m[K>[m[K response)
+      |                                                                                                                                 [01;31m[K^[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:104:[m[K [01;31m[Kerror: [m[K‘[01m[KCapitalFullName[m[K’ was not declared in this scope; did you mean ‘[01m[Kcpp_package::srv::CapitalFullName[m[K’?
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<[01;31m[KCapitalFullName[m[K::Response> response)
+      |                                                                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                                                                                                        [32m[Kcpp_package::srv::CapitalFullName[m[K
+In file included from [01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7[m[K,
+                 from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2[m[K:
+[01m[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:266:8:[m[K [01;36m[Knote: [m[K‘[01m[Kcpp_package::srv::CapitalFullName[m[K’ declared here
+  266 | struct [01;36m[KCapitalFullName[m[K
+      |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:129:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response[01;31m[K>[m[K response)
+      |                                                                                                                                 [01;31m[K^[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:88:[m[K [01;31m[Kerror: [m[Kinvalid template-id
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , [01;31m[Kstd[m[K::shared_ptr<CapitalFullName::Response> response)
+      |                                                                                        [01;31m[K^~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:104:[m[K [01;31m[Kerror: [m[K‘[01m[KCapitalFullName[m[K’ has not been declared
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<[01;31m[KCapitalFullName[m[K::Response> response)
+      |                                                                                                        [01;31m[K^~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:88:[m[K [01;31m[Kerror: [m[Kclass template placeholder ‘[01m[Kstd::shared_ptr[m[K’ not permitted in this context
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , [01;31m[Kstd[m[K::shared_ptr<CapitalFullName::Response> response)
+      |                                                                                        [01;31m[K^~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:10:139:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   10 |         void ComposeFullName(const std::shared_ptr<CapitalFullName::Request> request , std::shared_ptr<CapitalFullName::Response> response[01;31m[K)[m[K
+      |                                                                                                                                           [01;31m[K^[m[K
+      |                                                                                                                                            [32m[K;[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:11:2:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ after class definition
+   11 | }
+      |  [01;31m[K^[m[K
+      |  [32m[K;[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:5:25:[m[K [01;31m[Kerror: [m[Ktwo or more data types in declaration of ‘[01m[Ktype name[m[K’
+    5 | using CapitalFullName = [01;31m[Kcpp_package[m[K::srv::CapitalFullName
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/service_class.dir/build.make:76: CMakeFiles/service_class.dir/src/service_class.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:764: CMakeFiles/service_class.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

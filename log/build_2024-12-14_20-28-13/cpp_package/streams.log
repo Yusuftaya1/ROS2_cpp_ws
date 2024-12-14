@@ -1,0 +1,10 @@
+[0.023s] Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
+[0.062s] [31mCMake Error at CMakeLists.txt:40:
+[0.063s]   Parse error.  Expected a command name, got unquoted argument with text
+[0.063s]   "<member_of_group>rosidl_interface_packages</member_of_group>".
+[0.063s] 
+[0.064s] [0m
+[0.064s] -- Configuring incomplete, errors occurred!
+[0.064s] See also "/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/CMakeOutput.log".
+[0.071s] gmake: *** [Makefile:472: cmake_check_build_system] Error 1
+[0.089s] Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8

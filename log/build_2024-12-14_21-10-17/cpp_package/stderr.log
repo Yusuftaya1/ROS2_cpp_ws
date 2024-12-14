@@ -1,0 +1,50 @@
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/client_class.dir/build.make:191: client_class] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:792: CMakeFiles/client_class.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:[m[K In constructor ‘[01m[KMyServiceNode::MyServiceNode()[m[K’:
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:14:61:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMyServiceNode::create_service<CapitalFullName>(const char [21])[m[K’
+   14 |             service_ = [01;31m[Kthis->create_service<CapitalFullName>("create_cap_full_name")[m[K ,
+      |                        [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT, class CallbackT> typename rclcpp::Service<ServiceT>::SharedPtr rclcpp::Node::create_service(const string&, CallbackT&&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  267 |   [01;36m[Kcreate_service[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:267:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:14:61:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 1 provided
+   14 |             service_ = [01;36m[Kthis->create_service<CapitalFullName>("create_cap_full_name")[m[K ,
+      |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:[m[K In member function ‘[01m[Kvoid MyServiceNode::ComposeFullName(std::shared_ptr<cpp_package::srv::CapitalFullName_Request_<std::allocator<void> > >, std::shared_ptr<cpp_package::srv::CapitalFullName_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:22:69:[m[K [01;31m[Kerror: [m[K‘[01m[KfullName[m[K’ was not declared in this scope; did you mean ‘[01m[Kfullname[m[K’?
+   22 |     std::string capitalFullName = boost::to_upper_copy<std::string>([01;31m[KfullName[m[K);
+      |                                                                     [01;31m[K^~~~~~~~[m[K
+      |                                                                     [32m[Kfullname[m[K
+In file included from [01m[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33[m[K,
+                 from [01m[K/usr/include/c++/11/bits/allocator.h:46[m[K,
+                 from [01m[K/usr/include/c++/11/memory:64[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:1[m[K:
+/usr/include/c++/11/ext/new_allocator.h: In instantiation of ‘[01m[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MyServiceNode; _Args = {const char (&)[13]}; _Tp = MyServiceNode][m[K’:
+[01m[K/usr/include/c++/11/bits/alloc_traits.h:516:17:[m[K   required from ‘[01m[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MyServiceNode; _Args = {const char (&)[13]}; _Tp = MyServiceNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MyServiceNode>][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:[m[K   required from ‘[01m[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[13]}; _Tp = MyServiceNode; _Alloc = std::allocator<MyServiceNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:[m[K   required from ‘[01m[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MyServiceNode; _Alloc = std::allocator<MyServiceNode>; _Args = {const char (&)[13]}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:[m[K   required from ‘[01m[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyServiceNode>; _Args = {const char (&)[13]}; _Tp = MyServiceNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:409:59:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyServiceNode>; _Args = {const char (&)[13]}; _Tp = MyServiceNode][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:862:14:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MyServiceNode; _Alloc = std::allocator<MyServiceNode>; _Args = {const char (&)[13]}][m[K’
+[01m[K/usr/include/c++/11/bits/shared_ptr.h:878:39:[m[K   required from ‘[01m[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MyServiceNode; _Args = {const char (&)[13]}][m[K’
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:31:46:[m[K   required from here
+[01m[K/usr/include/c++/11/ext/new_allocator.h:162:11:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMyServiceNode::MyServiceNode(const char [13])[m[K’
+  162 |         { [01;31m[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)[m[K; }
+      |           [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:12:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[KMyServiceNode::MyServiceNode()[m[K’
+   12 |         [01;36m[KMyServiceNode[m[K() : Node("service_node"){
+      |         [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:12:9:[m[K [01;36m[Knote: [m[K  candidate expects 0 arguments, 1 provided
+gmake[2]: *** [CMakeFiles/service_class.dir/build.make:76: CMakeFiles/service_class.dir/src/service_class.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:764: CMakeFiles/service_class.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

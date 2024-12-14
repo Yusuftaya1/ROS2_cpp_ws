@@ -24,39 +24,39 @@ static struct PyModuleDef cpp_package__module = {
 #include "rosidl_runtime_c/message_type_support_struct.h"
 #include "rosidl_runtime_c/service_type_support_struct.h"
 #include "rosidl_runtime_c/action_type_support_struct.h"
-#include "cpp_package/srv/detail/say_name__type_support.h"
-#include "cpp_package/srv/detail/say_name__struct.h"
-#include "cpp_package/srv/detail/say_name__functions.h"
+#include "cpp_package/srv/detail/capital_full_name__type_support.h"
+#include "cpp_package/srv/detail/capital_full_name__struct.h"
+#include "cpp_package/srv/detail/capital_full_name__functions.h"
 
-static void * cpp_package__srv__say_name__request__create_ros_message(void)
+static void * cpp_package__srv__capital_full_name__request__create_ros_message(void)
 {
-  return cpp_package__srv__SayName_Request__create();
+  return cpp_package__srv__CapitalFullName_Request__create();
 }
 
-static void cpp_package__srv__say_name__request__destroy_ros_message(void * raw_ros_message)
+static void cpp_package__srv__capital_full_name__request__destroy_ros_message(void * raw_ros_message)
 {
-  cpp_package__srv__SayName_Request * ros_message = (cpp_package__srv__SayName_Request *)raw_ros_message;
-  cpp_package__srv__SayName_Request__destroy(ros_message);
+  cpp_package__srv__CapitalFullName_Request * ros_message = (cpp_package__srv__CapitalFullName_Request *)raw_ros_message;
+  cpp_package__srv__CapitalFullName_Request__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool cpp_package__srv__say_name__request__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool cpp_package__srv__capital_full_name__request__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * cpp_package__srv__say_name__request__convert_to_py(void * raw_ros_message);
+PyObject * cpp_package__srv__capital_full_name__request__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(cpp_package, srv, SayName_Request);
+ROSIDL_GET_MSG_TYPE_SUPPORT(cpp_package, srv, CapitalFullName_Request);
 
 int8_t
-_register_msg_type__srv__say_name__request(PyObject * pymodule)
+_register_msg_type__srv__capital_full_name__request(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&cpp_package__srv__say_name__request__create_ros_message,
+    (void *)&cpp_package__srv__capital_full_name__request__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -64,7 +64,7 @@ _register_msg_type__srv__say_name__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__say_name__request",
+    "create_ros_message_msg__srv__capital_full_name__request",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -75,7 +75,7 @@ _register_msg_type__srv__say_name__request(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&cpp_package__srv__say_name__request__destroy_ros_message,
+    (void *)&cpp_package__srv__capital_full_name__request__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -83,7 +83,7 @@ _register_msg_type__srv__say_name__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__say_name__request",
+    "destroy_ros_message_msg__srv__capital_full_name__request",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -94,7 +94,7 @@ _register_msg_type__srv__say_name__request(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&cpp_package__srv__say_name__request__convert_from_py,
+    (void *)&cpp_package__srv__capital_full_name__request__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -102,7 +102,7 @@ _register_msg_type__srv__say_name__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__say_name__request",
+    "convert_from_py_msg__srv__capital_full_name__request",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -113,7 +113,7 @@ _register_msg_type__srv__say_name__request(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&cpp_package__srv__say_name__request__convert_to_py,
+    (void *)&cpp_package__srv__capital_full_name__request__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -121,7 +121,7 @@ _register_msg_type__srv__say_name__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__say_name__request",
+    "convert_to_py_msg__srv__capital_full_name__request",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -132,7 +132,7 @@ _register_msg_type__srv__say_name__request(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(cpp_package, srv, SayName_Request),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(cpp_package, srv, CapitalFullName_Request),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -140,7 +140,7 @@ _register_msg_type__srv__say_name__request(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__say_name__request",
+    "type_support_msg__srv__capital_full_name__request",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -164,41 +164,41 @@ _register_msg_type__srv__say_name__request(PyObject * pymodule)
 // already included above
 // #include "rosidl_runtime_c/action_type_support_struct.h"
 // already included above
-// #include "cpp_package/srv/detail/say_name__type_support.h"
+// #include "cpp_package/srv/detail/capital_full_name__type_support.h"
 // already included above
-// #include "cpp_package/srv/detail/say_name__struct.h"
+// #include "cpp_package/srv/detail/capital_full_name__struct.h"
 // already included above
-// #include "cpp_package/srv/detail/say_name__functions.h"
+// #include "cpp_package/srv/detail/capital_full_name__functions.h"
 
-static void * cpp_package__srv__say_name__response__create_ros_message(void)
+static void * cpp_package__srv__capital_full_name__response__create_ros_message(void)
 {
-  return cpp_package__srv__SayName_Response__create();
+  return cpp_package__srv__CapitalFullName_Response__create();
 }
 
-static void cpp_package__srv__say_name__response__destroy_ros_message(void * raw_ros_message)
+static void cpp_package__srv__capital_full_name__response__destroy_ros_message(void * raw_ros_message)
 {
-  cpp_package__srv__SayName_Response * ros_message = (cpp_package__srv__SayName_Response *)raw_ros_message;
-  cpp_package__srv__SayName_Response__destroy(ros_message);
+  cpp_package__srv__CapitalFullName_Response * ros_message = (cpp_package__srv__CapitalFullName_Response *)raw_ros_message;
+  cpp_package__srv__CapitalFullName_Response__destroy(ros_message);
 }
 
 ROSIDL_GENERATOR_C_IMPORT
-bool cpp_package__srv__say_name__response__convert_from_py(PyObject * _pymsg, void * ros_message);
+bool cpp_package__srv__capital_full_name__response__convert_from_py(PyObject * _pymsg, void * ros_message);
 ROSIDL_GENERATOR_C_IMPORT
-PyObject * cpp_package__srv__say_name__response__convert_to_py(void * raw_ros_message);
+PyObject * cpp_package__srv__capital_full_name__response__convert_to_py(void * raw_ros_message);
 
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_message_type_support_t *
-ROSIDL_GET_MSG_TYPE_SUPPORT(cpp_package, srv, SayName_Response);
+ROSIDL_GET_MSG_TYPE_SUPPORT(cpp_package, srv, CapitalFullName_Response);
 
 int8_t
-_register_msg_type__srv__say_name__response(PyObject * pymodule)
+_register_msg_type__srv__capital_full_name__response(PyObject * pymodule)
 {
   int8_t err;
 
   PyObject * pyobject_create_ros_message = NULL;
   pyobject_create_ros_message = PyCapsule_New(
-    (void *)&cpp_package__srv__say_name__response__create_ros_message,
+    (void *)&cpp_package__srv__capital_full_name__response__create_ros_message,
     NULL, NULL);
   if (!pyobject_create_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -206,7 +206,7 @@ _register_msg_type__srv__say_name__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "create_ros_message_msg__srv__say_name__response",
+    "create_ros_message_msg__srv__capital_full_name__response",
     pyobject_create_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -217,7 +217,7 @@ _register_msg_type__srv__say_name__response(PyObject * pymodule)
 
   PyObject * pyobject_destroy_ros_message = NULL;
   pyobject_destroy_ros_message = PyCapsule_New(
-    (void *)&cpp_package__srv__say_name__response__destroy_ros_message,
+    (void *)&cpp_package__srv__capital_full_name__response__destroy_ros_message,
     NULL, NULL);
   if (!pyobject_destroy_ros_message) {
     // previously added objects will be removed when the module is destroyed
@@ -225,7 +225,7 @@ _register_msg_type__srv__say_name__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "destroy_ros_message_msg__srv__say_name__response",
+    "destroy_ros_message_msg__srv__capital_full_name__response",
     pyobject_destroy_ros_message);
   if (err) {
     // the created capsule needs to be decremented
@@ -236,7 +236,7 @@ _register_msg_type__srv__say_name__response(PyObject * pymodule)
 
   PyObject * pyobject_convert_from_py = NULL;
   pyobject_convert_from_py = PyCapsule_New(
-    (void *)&cpp_package__srv__say_name__response__convert_from_py,
+    (void *)&cpp_package__srv__capital_full_name__response__convert_from_py,
     NULL, NULL);
   if (!pyobject_convert_from_py) {
     // previously added objects will be removed when the module is destroyed
@@ -244,7 +244,7 @@ _register_msg_type__srv__say_name__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_from_py_msg__srv__say_name__response",
+    "convert_from_py_msg__srv__capital_full_name__response",
     pyobject_convert_from_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -255,7 +255,7 @@ _register_msg_type__srv__say_name__response(PyObject * pymodule)
 
   PyObject * pyobject_convert_to_py = NULL;
   pyobject_convert_to_py = PyCapsule_New(
-    (void *)&cpp_package__srv__say_name__response__convert_to_py,
+    (void *)&cpp_package__srv__capital_full_name__response__convert_to_py,
     NULL, NULL);
   if (!pyobject_convert_to_py) {
     // previously added objects will be removed when the module is destroyed
@@ -263,7 +263,7 @@ _register_msg_type__srv__say_name__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "convert_to_py_msg__srv__say_name__response",
+    "convert_to_py_msg__srv__capital_full_name__response",
     pyobject_convert_to_py);
   if (err) {
     // the created capsule needs to be decremented
@@ -274,7 +274,7 @@ _register_msg_type__srv__say_name__response(PyObject * pymodule)
 
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(cpp_package, srv, SayName_Response),
+    (void *)ROSIDL_GET_MSG_TYPE_SUPPORT(cpp_package, srv, CapitalFullName_Response),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -282,7 +282,7 @@ _register_msg_type__srv__say_name__response(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_msg__srv__say_name__response",
+    "type_support_msg__srv__capital_full_name__response",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -295,15 +295,15 @@ _register_msg_type__srv__say_name__response(PyObject * pymodule)
 
 ROSIDL_GENERATOR_C_IMPORT
 const rosidl_service_type_support_t *
-ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, cpp_package, srv, SayName)();
+ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, cpp_package, srv, CapitalFullName)();
 
 int8_t
-_register_srv_type__srv__say_name(PyObject * pymodule)
+_register_srv_type__srv__capital_full_name(PyObject * pymodule)
 {
   int8_t err;
   PyObject * pyobject_type_support = NULL;
   pyobject_type_support = PyCapsule_New(
-    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, cpp_package, srv, SayName)(),
+    (void *)ROSIDL_TYPESUPPORT_INTERFACE__SERVICE_SYMBOL_NAME(rosidl_typesupport_c, cpp_package, srv, CapitalFullName)(),
     NULL, NULL);
   if (!pyobject_type_support) {
     // previously added objects will be removed when the module is destroyed
@@ -311,7 +311,7 @@ _register_srv_type__srv__say_name(PyObject * pymodule)
   }
   err = PyModule_AddObject(
     pymodule,
-    "type_support_srv__srv__say_name",
+    "type_support_srv__srv__capital_full_name",
     pyobject_type_support);
   if (err) {
     // the created capsule needs to be decremented
@@ -332,19 +332,19 @@ PyInit_cpp_package_s__rosidl_typesupport_introspection_c(void)
   }
   int8_t err;
 
-  err = _register_msg_type__srv__say_name__request(pymodule);
+  err = _register_msg_type__srv__capital_full_name__request(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_msg_type__srv__say_name__response(pymodule);
+  err = _register_msg_type__srv__capital_full_name__response(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;
   }
 
-  err = _register_srv_type__srv__say_name(pymodule);
+  err = _register_srv_type__srv__capital_full_name(pymodule);
   if (err) {
     Py_XDECREF(pymodule);
     return NULL;

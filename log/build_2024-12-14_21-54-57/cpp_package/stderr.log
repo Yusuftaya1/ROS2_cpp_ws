@@ -1,0 +1,24 @@
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:[m[K In constructor ‘[01m[KMyClientNode::MyClientNode(std::string, std::string, std::string)[m[K’:
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:17:47:[m[K [01;31m[Kerror: [m[K‘[01m[Kcustom_msg_and_srv[m[K’ was not declared in this scope
+   17 |                 client_ = this->create_client<[01;31m[Kcustom_msg_and_srv[m[K::srv::CapitalFullName>("create_cap_full_name");
+      |                                               [01;31m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:17:33:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   17 |                 client_ = this->[01;31m[Kcreate_client<custom_msg_and_srv::srv::CapitalFullName>[m[K("create_cap_full_name");
+      |                                 [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:17:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KMyClientNode::create_client<<expression error> >(const char [21])[m[K’
+   17 |                 client_ = [01;31m[Kthis->create_client<custom_msg_and_srv::srv::CapitalFullName>("create_cap_full_name")[m[K;
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:2[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class ServiceT> typename rclcpp::Client<ServiceT>::SharedPtr rclcpp::Node::create_client(const string&, const rmw_qos_profile_t&, rclcpp::CallbackGroup::SharedPtr)[m[K’
+  252 |   [01;36m[Kcreate_client[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:252:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:17:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   17 |                 client_ = [01;31m[Kthis->create_client<custom_msg_and_srv::srv::CapitalFullName>("create_cap_full_name")[m[K;
+      |                           [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/client_class.dir/build.make:76: CMakeFiles/client_class.dir/src/client_class.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:792: CMakeFiles/client_class.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

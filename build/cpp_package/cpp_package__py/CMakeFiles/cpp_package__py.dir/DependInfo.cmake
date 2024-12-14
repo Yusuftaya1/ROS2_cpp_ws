@@ -15,8 +15,8 @@ set(CMAKE_MULTIPLE_OUTPUT_PAIRS
   "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_c.c" "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_introspection_c.c" "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/srv/__init__.py" "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/srv/_say_name.py" "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_fastrtps_c.c"
-  "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/srv/_say_name_s.c" "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/srv/_capital_full_name.py" "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_fastrtps_c.c"
+  "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/srv/_capital_full_name_s.c" "/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_fastrtps_c.c"
   )
 
 

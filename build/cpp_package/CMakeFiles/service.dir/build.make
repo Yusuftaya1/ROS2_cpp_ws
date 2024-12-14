@@ -105,6 +105,13 @@ service: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_fastrtps_
 service: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_introspection_cpp.so
 service: /opt/ros/humble/lib/libexample_interfaces__rosidl_typesupport_cpp.so
 service: /opt/ros/humble/lib/libexample_interfaces__rosidl_generator_py.so
+service: /opt/ros/humble/lib/librcutils.so
+service: /opt/ros/humble/lib/librcpputils.so
+service: /opt/ros/humble/lib/librosidl_typesupport_c.so
+service: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+service: /opt/ros/humble/lib/librosidl_runtime_c.so
+service: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+service: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 service: /opt/ros/humble/lib/liblibstatistics_collector.so
 service: /opt/ros/humble/lib/librcl.so
 service: /opt/ros/humble/lib/librmw_implementation.so
@@ -175,8 +182,8 @@ service: /usr/lib/x86_64-linux-gnu/libpython3.10.so
 service: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 service: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 service: /opt/ros/humble/lib/librosidl_typesupport_c.so
-service: /opt/ros/humble/lib/librcpputils.so
 service: /opt/ros/humble/lib/librosidl_runtime_c.so
+service: /opt/ros/humble/lib/librcpputils.so
 service: /opt/ros/humble/lib/librcutils.so
 service: CMakeFiles/service.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable service"

@@ -1,0 +1,63 @@
+[0.029s] Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
+[0.133s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_generator_c[0m
+[0.154s] [  2%] Built target cpp_package__cpp
+[0.174s] [  8%] Built target cpp_package__rosidl_generator_c
+[0.179s] [ 12%] Built target service
+[0.187s] [ 17%] Built target subscriber
+[0.187s] [ 21%] Built target publisher
+[0.212s] [ 21%] Built target ament_cmake_python_copy_cpp_package
+[0.213s] [ 27%] Built target cpp_try2
+[0.214s] [ 29%] Built target cpp_try
+[0.234s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_cpp[0m
+[0.234s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_fastrtps_c[0m
+[0.234s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_introspection_c[0m
+[0.248s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_fastrtps_cpp[0m
+[0.249s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_c[0m
+[0.250s] [ 34%] Built target client
+[0.260s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_introspection_cpp[0m
+[0.274s] [ 40%] Built target cpp_package__rosidl_typesupport_fastrtps_c
+[0.277s] [ 46%] Built target cpp_package__rosidl_typesupport_introspection_c
+[0.282s] [ 53%] Built target cpp_package__rosidl_typesupport_cpp
+[0.283s] [ 59%] Built target cpp_package__rosidl_typesupport_c
+[0.287s] [ 65%] Built target cpp_package__rosidl_typesupport_fastrtps_cpp
+[0.302s] [ 72%] Built target cpp_package__rosidl_typesupport_introspection_cpp
+[0.346s] [ 72%] Built target cpp_package
+[0.372s] [35m[1mConsolidate compiler generated dependencies of target client_class[0m
+[0.393s] [ 74%] Built target cpp_package__py
+[0.395s] [ 76%] [32mBuilding CXX object CMakeFiles/service_class.dir/src/service_class.cpp.o[0m
+[0.396s] [ 78%] [32m[1mLinking CXX executable client_class[0m
+[0.418s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_generator_py[0m
+[0.448s] [ 82%] Built target cpp_package__rosidl_generator_py
+[0.479s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_introspection_c__pyext[0m
+[0.483s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_fastrtps_c__pyext[0m
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_c__pyext[0m
+[0.533s] [ 85%] [32mBuilding C object CMakeFiles/cpp_package__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_c.c.o[0m
+[0.541s] [ 87%] [32mBuilding C object CMakeFiles/cpp_package__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[0.565s] [ 89%] [32mBuilding C object CMakeFiles/cpp_package__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/cpp_package/_cpp_package_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[0.688s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.688s] (.text+0x1b): undefined reference to `main'
+[0.691s] collect2: error: ld returned 1 exit status
+[0.696s] gmake[2]: *** [CMakeFiles/client_class.dir/build.make:191: client_class] Error 1
+[0.697s] gmake[1]: *** [CMakeFiles/Makefile2:792: CMakeFiles/client_class.dir/all] Error 2
+[0.698s] gmake[1]: *** Waiting for unfinished jobs....
+[0.961s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/cpp_package/cpp_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.025s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/cpp_package/cpp_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.032s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/cpp_package/cpp_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[1.086s] [ 95%] Built target cpp_package__rosidl_typesupport_introspection_c__pyext
+[1.157s] [ 95%] Built target cpp_package__rosidl_typesupport_fastrtps_c__pyext
+[1.165s] [ 95%] Built target cpp_package__rosidl_typesupport_c__pyext
+[1.193s] running egg_info
+[1.194s] writing cpp_package.egg-info/PKG-INFO
+[1.195s] writing dependency_links to cpp_package.egg-info/dependency_links.txt
+[1.195s] writing top-level names to cpp_package.egg-info/top_level.txt
+[1.201s] reading manifest file 'cpp_package.egg-info/SOURCES.txt'
+[1.203s] writing manifest file 'cpp_package.egg-info/SOURCES.txt'
+[1.265s] [ 95%] Built target ament_cmake_python_build_cpp_package_egg
+[9.148s] [ 97%] [32m[1mLinking CXX executable service_class[0m
+[9.383s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[9.383s] (.text+0x1b): undefined reference to `main'
+[9.395s] collect2: error: ld returned 1 exit status
+[9.398s] gmake[2]: *** [CMakeFiles/service_class.dir/build.make:191: service_class] Error 1
+[9.399s] gmake[1]: *** [CMakeFiles/Makefile2:764: CMakeFiles/service_class.dir/all] Error 2
+[9.399s] gmake: *** [Makefile:146: all] Error 2
+[9.404s] Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8

@@ -1,0 +1,149 @@
+[0.000000] (-) TimerEvent: {}
+[0.000662] (cpp_package) JobQueued: {'identifier': 'cpp_package', 'dependencies': OrderedDict()}
+[0.001183] (cpp_package) JobStarted: {'identifier': 'cpp_package'}
+[0.018836] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'cmake'}
+[0.020635] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'build'}
+[0.022724] (cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tayya/cpp_pkg/build/cpp_package', '--', '-j8', '-l8'], 'cwd': '/home/tayya/cpp_pkg/build/cpp_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1366'), ('SYSTEMD_EXEC_PID', '1543'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5687'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/cpp_pkg/install:/home/tayya/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:12222'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1501,unix/Asus-Ubuntu:/tmp/.ICE-unix/1501'), ('INVOCATION_ID', '11614ac4895a46cead433481e3f5fc6a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0INPY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8e309289-df42-4e93-870c-fdc9c6f62956'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/cpp_pkg/build/cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.099500] (-) TimerEvent: {}
+[0.183308] (cpp_package) StdoutLine: {'line': b'[  2%] Built target cpp_package__cpp\n'}
+[0.190320] (cpp_package) StdoutLine: {'line': b'[  8%] Built target cpp_package__rosidl_generator_c\n'}
+[0.200325] (-) TimerEvent: {}
+[0.243229] (cpp_package) StdoutLine: {'line': b'[ 12%] Built target service\n'}
+[0.250933] (cpp_package) StdoutLine: {'line': b'[ 17%] Built target publisher\n'}
+[0.258100] (cpp_package) StdoutLine: {'line': b'[ 21%] Built target subscriber\n'}
+[0.259417] (cpp_package) StdoutLine: {'line': b'[ 21%] Built target ament_cmake_python_copy_cpp_package\n'}
+[0.260764] (cpp_package) StdoutLine: {'line': b'[ 25%] Built target cpp_try2\n'}
+[0.275319] (cpp_package) StdoutLine: {'line': b'[ 29%] Built target cpp_try\n'}
+[0.303617] (-) TimerEvent: {}
+[0.306960] (cpp_package) StdoutLine: {'line': b'[ 36%] Built target cpp_package__rosidl_typesupport_cpp\n'}
+[0.317563] (cpp_package) StdoutLine: {'line': b'[ 40%] Built target client\n'}
+[0.337493] (cpp_package) StdoutLine: {'line': b'[ 46%] Built target cpp_package__rosidl_typesupport_fastrtps_c\n'}
+[0.343449] (cpp_package) StdoutLine: {'line': b'[ 53%] Built target cpp_package__rosidl_typesupport_fastrtps_cpp\n'}
+[0.344078] (cpp_package) StdoutLine: {'line': b'[ 59%] Built target cpp_package__rosidl_typesupport_c\n'}
+[0.346274] (cpp_package) StdoutLine: {'line': b'[ 65%] Built target cpp_package__rosidl_typesupport_introspection_c\n'}
+[0.354131] (cpp_package) StdoutLine: {'line': b'[ 72%] Built target cpp_package__rosidl_typesupport_introspection_cpp\n'}
+[0.398339] (cpp_package) StdoutLine: {'line': b'[ 72%] Built target cpp_package\n'}
+[0.403769] (-) TimerEvent: {}
+[0.424039] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_class\x1b[0m\n'}
+[0.435174] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target service_class\x1b[0m\n'}
+[0.464049] (cpp_package) StdoutLine: {'line': b'[ 74%] Built target cpp_package__py\n'}
+[0.482523] (cpp_package) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object CMakeFiles/client_class.dir/src/client_class.cpp.o\x1b[0m\n'}
+[0.487793] (cpp_package) StdoutLine: {'line': b'[ 80%] Built target service_class\n'}
+[0.503928] (-) TimerEvent: {}
+[0.518930] (cpp_package) StdoutLine: {'line': b'[ 85%] Built target cpp_package__rosidl_generator_py\n'}
+[0.598189] (cpp_package) StdoutLine: {'line': b'[ 89%] Built target cpp_package__rosidl_typesupport_introspection_c__pyext\n'}
+[0.598916] (cpp_package) StdoutLine: {'line': b'[ 93%] Built target cpp_package__rosidl_typesupport_c__pyext\n'}
+[0.603278] (cpp_package) StdoutLine: {'line': b'[ 97%] Built target cpp_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.604043] (-) TimerEvent: {}
+[0.704681] (-) TimerEvent: {}
+[0.805315] (-) TimerEvent: {}
+[0.905864] (-) TimerEvent: {}
+[1.000218] (cpp_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.002693] (cpp_package) StdoutLine: {'line': b'writing cpp_package.egg-info/PKG-INFO\n'}
+[1.003528] (cpp_package) StdoutLine: {'line': b'writing dependency_links to cpp_package.egg-info/dependency_links.txt\n'}
+[1.004094] (cpp_package) StdoutLine: {'line': b'writing top-level names to cpp_package.egg-info/top_level.txt\n'}
+[1.005964] (-) TimerEvent: {}
+[1.011230] (cpp_package) StdoutLine: {'line': b"reading manifest file 'cpp_package.egg-info/SOURCES.txt'\n"}
+[1.013248] (cpp_package) StdoutLine: {'line': b"writing manifest file 'cpp_package.egg-info/SOURCES.txt'\n"}
+[1.087330] (cpp_package) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_cpp_package_egg\n'}
+[1.106172] (-) TimerEvent: {}
+[1.206701] (-) TimerEvent: {}
+[1.307308] (-) TimerEvent: {}
+[1.407905] (-) TimerEvent: {}
+[1.508523] (-) TimerEvent: {}
+[1.609126] (-) TimerEvent: {}
+[1.709689] (-) TimerEvent: {}
+[1.810326] (-) TimerEvent: {}
+[1.910936] (-) TimerEvent: {}
+[2.011552] (-) TimerEvent: {}
+[2.112113] (-) TimerEvent: {}
+[2.212787] (-) TimerEvent: {}
+[2.313299] (-) TimerEvent: {}
+[2.413967] (-) TimerEvent: {}
+[2.514537] (-) TimerEvent: {}
+[2.615149] (-) TimerEvent: {}
+[2.715699] (-) TimerEvent: {}
+[2.816185] (-) TimerEvent: {}
+[2.916693] (-) TimerEvent: {}
+[3.017174] (-) TimerEvent: {}
+[3.117656] (-) TimerEvent: {}
+[3.218173] (-) TimerEvent: {}
+[3.318695] (-) TimerEvent: {}
+[3.419234] (-) TimerEvent: {}
+[3.519718] (-) TimerEvent: {}
+[3.620262] (-) TimerEvent: {}
+[3.720829] (-) TimerEvent: {}
+[3.821399] (-) TimerEvent: {}
+[3.921979] (-) TimerEvent: {}
+[4.022549] (-) TimerEvent: {}
+[4.123188] (-) TimerEvent: {}
+[4.223734] (-) TimerEvent: {}
+[4.325180] (-) TimerEvent: {}
+[4.425798] (-) TimerEvent: {}
+[4.526436] (-) TimerEvent: {}
+[4.627135] (-) TimerEvent: {}
+[4.727745] (-) TimerEvent: {}
+[4.828337] (-) TimerEvent: {}
+[4.928889] (-) TimerEvent: {}
+[5.029474] (-) TimerEvent: {}
+[5.130036] (-) TimerEvent: {}
+[5.230605] (-) TimerEvent: {}
+[5.331177] (-) TimerEvent: {}
+[5.431798] (-) TimerEvent: {}
+[5.532350] (-) TimerEvent: {}
+[5.632987] (-) TimerEvent: {}
+[5.733520] (-) TimerEvent: {}
+[5.834010] (-) TimerEvent: {}
+[5.934581] (-) TimerEvent: {}
+[6.035128] (-) TimerEvent: {}
+[6.135821] (-) TimerEvent: {}
+[6.236491] (-) TimerEvent: {}
+[6.337163] (-) TimerEvent: {}
+[6.437743] (-) TimerEvent: {}
+[6.538400] (-) TimerEvent: {}
+[6.639088] (-) TimerEvent: {}
+[6.739704] (-) TimerEvent: {}
+[6.840396] (-) TimerEvent: {}
+[6.940930] (-) TimerEvent: {}
+[7.041489] (-) TimerEvent: {}
+[7.142192] (-) TimerEvent: {}
+[7.242846] (-) TimerEvent: {}
+[7.343437] (-) TimerEvent: {}
+[7.443931] (-) TimerEvent: {}
+[7.544518] (-) TimerEvent: {}
+[7.645007] (-) TimerEvent: {}
+[7.738016] (cpp_package) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/x86_64-linux-gnu/c++/11/bits/c++allocator.h:33\x1b[m\x1b[K,\n'}
+[7.738409] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/bits/allocator.h:46\x1b[m\x1b[K,\n'}
+[7.738571] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/unordered_map:40\x1b[m\x1b[K,\n'}
+[7.738709] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/functional:61\x1b[m\x1b[K,\n'}
+[7.738840] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:13\x1b[m\x1b[K,\n'}
+[7.738972] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/usr/include/c++/11/algorithm:74\x1b[m\x1b[K,\n'}
+[7.739113] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/detail/capital_full_name__struct.hpp:8\x1b[m\x1b[K,\n'}
+[7.739252] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tayya/cpp_pkg/build/cpp_package/rosidl_generator_cpp/cpp_package/srv/capital_full_name.hpp:7\x1b[m\x1b[K,\n'}
+[7.739403] (cpp_package) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:1\x1b[m\x1b[K:\n'}
+[7.739529] (cpp_package) StderrLine: {'line': b'/usr/include/c++/11/ext/new_allocator.h: In instantiation of \xe2\x80\x98\x1b[01m\x1b[Kvoid __gnu_cxx::new_allocator<_Tp>::construct(_Up*, _Args&& ...) [with _Up = MyClientNode; _Args = {const char (&)[12], std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = MyClientNode]\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[7.739669] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/alloc_traits.h:516:17:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstatic void std::allocator_traits<std::allocator<_Tp1> >::construct(std::allocator_traits<std::allocator<_Tp1> >::allocator_type&, _Up*, _Args&& ...) [with _Up = MyClientNode; _Args = {const char (&)[12], std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = MyClientNode; std::allocator_traits<std::allocator<_Tp1> >::allocator_type = std::allocator<MyClientNode>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.739801] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:519:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::_Sp_counted_ptr_inplace<_Tp, _Alloc, _Lp>::_Sp_counted_ptr_inplace(_Alloc, _Args&& ...) [with _Args = {const char (&)[12], std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = MyClientNode; _Alloc = std::allocator<MyClientNode>; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.739951] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:650:16:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_count<_Lp>::__shared_count(_Tp*&, std::_Sp_alloc_shared_tag<_Alloc>, _Args&& ...) [with _Tp = MyClientNode; _Alloc = std::allocator<MyClientNode>; _Args = {const char (&)[12], std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.740133] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr_base.h:1342:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::__shared_ptr<_Tp, _Lp>::__shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyClientNode>; _Args = {const char (&)[12], std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = MyClientNode; __gnu_cxx::_Lock_policy _Lp = __gnu_cxx::_S_atomic]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.740353] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:409:59:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp>::shared_ptr(std::_Sp_alloc_shared_tag<_Tp>, _Args&& ...) [with _Alloc = std::allocator<MyClientNode>; _Args = {const char (&)[12], std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}; _Tp = MyClientNode]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.740533] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:862:14:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::allocate_shared(const _Alloc&, _Args&& ...) [with _Tp = MyClientNode; _Alloc = std::allocator<MyClientNode>; _Args = {const char (&)[12], std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.740712] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/shared_ptr.h:878:39:\x1b[m\x1b[K   required from \xe2\x80\x98\x1b[01m\x1b[Kstd::shared_ptr<_Tp> std::make_shared(_Args&& ...) [with _Tp = MyClientNode; _Args = {const char (&)[12], std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&, std::__cxx11::basic_string<char, std::char_traits<char>, std::allocator<char> >&}]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.740864] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:54:45:\x1b[m\x1b[K   required from here\n'}
+[7.741020] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/ext/new_allocator.h:162:11:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMyClientNode::MyClientNode(const char [12], std::__cxx11::basic_string<char>&, std::__cxx11::basic_string<char>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.741209] (cpp_package) StderrLine: {'line': b'  162 |         { \x1b[01;31m\x1b[K::new((void *)__p) _Up(std::forward<_Args>(__args)...)\x1b[m\x1b[K; }\n'}
+[7.741356] (cpp_package) StderrLine: {'line': b'      |           \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.741505] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:15:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[KMyClientNode::MyClientNode(const string&, const string&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[7.741652] (cpp_package) StderrLine: {'line': b'   15 |         \x1b[01;36m\x1b[KMyClientNode\x1b[m\x1b[K(const std::string &passedName, const std::string &passedSurname) : Node("client_node"), name_(passedName), surname_(passedSurname){\n'}
+[7.741784] (cpp_package) StderrLine: {'line': b'      |         \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[7.741907] (cpp_package) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tayya/cpp_pkg/src/cpp_package/src/client_class.cpp:15:9:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 2 arguments, 3 provided\n'}
+[7.745177] (-) TimerEvent: {}
+[7.845627] (-) TimerEvent: {}
+[7.946160] (-) TimerEvent: {}
+[8.046729] (-) TimerEvent: {}
+[8.075397] (cpp_package) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/client_class.dir/build.make:76: CMakeFiles/client_class.dir/src/client_class.cpp.o] Error 1\n'}
+[8.076017] (cpp_package) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:792: CMakeFiles/client_class.dir/all] Error 2\n'}
+[8.076447] (cpp_package) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[8.081506] (cpp_package) CommandEnded: {'returncode': 2}
+[8.116465] (cpp_package) JobEnded: {'identifier': 'cpp_package', 'rc': 2}
+[8.127778] (-) EventReactorShutdown: {}

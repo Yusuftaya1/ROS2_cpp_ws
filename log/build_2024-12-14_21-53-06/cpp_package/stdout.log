@@ -1,0 +1,32 @@
+[  2%] Built target cpp_package__cpp
+[  8%] Built target cpp_package__rosidl_generator_c
+[ 12%] Built target service
+[ 17%] Built target publisher
+[ 21%] Built target subscriber
+[ 21%] Built target ament_cmake_python_copy_cpp_package
+[ 25%] Built target cpp_try2
+[ 29%] Built target cpp_try
+[ 36%] Built target cpp_package__rosidl_typesupport_cpp
+[ 40%] Built target client
+[ 46%] Built target cpp_package__rosidl_typesupport_fastrtps_c
+[ 53%] Built target cpp_package__rosidl_typesupport_fastrtps_cpp
+[ 59%] Built target cpp_package__rosidl_typesupport_c
+[ 65%] Built target cpp_package__rosidl_typesupport_introspection_c
+[ 72%] Built target cpp_package__rosidl_typesupport_introspection_cpp
+[ 72%] Built target cpp_package
+[35m[1mConsolidate compiler generated dependencies of target client_class[0m
+[35m[1mConsolidate compiler generated dependencies of target service_class[0m
+[ 74%] Built target cpp_package__py
+[ 76%] [32mBuilding CXX object CMakeFiles/client_class.dir/src/client_class.cpp.o[0m
+[ 80%] Built target service_class
+[ 85%] Built target cpp_package__rosidl_generator_py
+[ 89%] Built target cpp_package__rosidl_typesupport_introspection_c__pyext
+[ 93%] Built target cpp_package__rosidl_typesupport_c__pyext
+[ 97%] Built target cpp_package__rosidl_typesupport_fastrtps_c__pyext
+running egg_info
+writing cpp_package.egg-info/PKG-INFO
+writing dependency_links to cpp_package.egg-info/dependency_links.txt
+writing top-level names to cpp_package.egg-info/top_level.txt
+reading manifest file 'cpp_package.egg-info/SOURCES.txt'
+writing manifest file 'cpp_package.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_cpp_package_egg

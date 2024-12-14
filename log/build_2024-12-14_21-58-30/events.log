@@ -1,0 +1,300 @@
+[0.000000] (-) TimerEvent: {}
+[0.001030] (cpp_package) JobQueued: {'identifier': 'cpp_package', 'dependencies': OrderedDict()}
+[0.001618] (cpp_package) JobStarted: {'identifier': 'cpp_package'}
+[0.022762] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'cmake'}
+[0.024842] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'build'}
+[0.026818] (cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tayya/cpp_pkg/build/cpp_package', '--', '-j8', '-l8'], 'cwd': '/home/tayya/cpp_pkg/build/cpp_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tayya/cpp_pkg/install/cpp_package/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1366'), ('SYSTEMD_EXEC_PID', '1543'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5687'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/cpp_pkg/install:/home/tayya/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:12222'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1501,unix/Asus-Ubuntu:/tmp/.ICE-unix/1501'), ('INVOCATION_ID', '11614ac4895a46cead433481e3f5fc6a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0INPY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8e309289-df42-4e93-870c-fdc9c6f62956'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/cpp_pkg/build/cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[0.099541] (-) TimerEvent: {}
+[0.161563] (cpp_package) StdoutLine: {'line': b'[  2%] Built target cpp_package__cpp\n'}
+[0.163870] (cpp_package) StdoutLine: {'line': b'[  8%] Built target cpp_package__rosidl_generator_c\n'}
+[0.191627] (cpp_package) StdoutLine: {'line': b'[ 12%] Built target cpp_try\n'}
+[0.195328] (cpp_package) StdoutLine: {'line': b'[ 17%] Built target subscriber\n'}
+[0.198868] (cpp_package) StdoutLine: {'line': b'[ 21%] Built target cpp_try2\n'}
+[0.202503] (-) TimerEvent: {}
+[0.216661] (cpp_package) StdoutLine: {'line': b'[ 25%] Built target publisher\n'}
+[0.240578] (cpp_package) StdoutLine: {'line': b'[ 29%] Built target service\n'}
+[0.244520] (cpp_package) StdoutLine: {'line': b'[ 29%] Built target ament_cmake_python_copy_cpp_package\n'}
+[0.251702] (cpp_package) StdoutLine: {'line': b'[ 36%] Built target cpp_package__rosidl_typesupport_cpp\n'}
+[0.275901] (cpp_package) StdoutLine: {'line': b'[ 40%] Built target client\n'}
+[0.279581] (cpp_package) StdoutLine: {'line': b'[ 46%] Built target cpp_package__rosidl_typesupport_introspection_c\n'}
+[0.281916] (cpp_package) StdoutLine: {'line': b'[ 53%] Built target cpp_package__rosidl_typesupport_fastrtps_c\n'}
+[0.290950] (cpp_package) StdoutLine: {'line': b'[ 59%] Built target cpp_package__rosidl_typesupport_fastrtps_cpp\n'}
+[0.292026] (cpp_package) StdoutLine: {'line': b'[ 65%] Built target cpp_package__rosidl_typesupport_c\n'}
+[0.302661] (-) TimerEvent: {}
+[0.309906] (cpp_package) StdoutLine: {'line': b'[ 72%] Built target cpp_package__rosidl_typesupport_introspection_cpp\n'}
+[0.352362] (cpp_package) StdoutLine: {'line': b'[ 72%] Built target cpp_package\n'}
+[0.390837] (cpp_package) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target client_class\x1b[0m\n'}
+[0.402785] (-) TimerEvent: {}
+[0.407886] (cpp_package) StdoutLine: {'line': b'[ 74%] Built target cpp_package__py\n'}
+[0.431858] (cpp_package) StdoutLine: {'line': b'[ 78%] Built target service_class\n'}
+[0.437057] (cpp_package) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object CMakeFiles/client_class.dir/src/client_class.cpp.o\x1b[0m\n'}
+[0.465645] (cpp_package) StdoutLine: {'line': b'[ 85%] Built target cpp_package__rosidl_generator_py\n'}
+[0.502948] (-) TimerEvent: {}
+[0.517666] (cpp_package) StdoutLine: {'line': b'[ 89%] Built target cpp_package__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.528186] (cpp_package) StdoutLine: {'line': b'[ 97%] Built target cpp_package__rosidl_typesupport_c__pyext\n'}
+[0.528639] (cpp_package) StdoutLine: {'line': b'[ 97%] Built target cpp_package__rosidl_typesupport_introspection_c__pyext\n'}
+[0.603127] (-) TimerEvent: {}
+[0.703652] (-) TimerEvent: {}
+[0.804193] (-) TimerEvent: {}
+[0.904728] (-) TimerEvent: {}
+[0.920230] (cpp_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.922113] (cpp_package) StdoutLine: {'line': b'writing cpp_package.egg-info/PKG-INFO\n'}
+[0.922713] (cpp_package) StdoutLine: {'line': b'writing dependency_links to cpp_package.egg-info/dependency_links.txt\n'}
+[0.923403] (cpp_package) StdoutLine: {'line': b'writing top-level names to cpp_package.egg-info/top_level.txt\n'}
+[0.932651] (cpp_package) StdoutLine: {'line': b"reading manifest file 'cpp_package.egg-info/SOURCES.txt'\n"}
+[0.935300] (cpp_package) StdoutLine: {'line': b"writing manifest file 'cpp_package.egg-info/SOURCES.txt'\n"}
+[1.002425] (cpp_package) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_cpp_package_egg\n'}
+[1.004859] (-) TimerEvent: {}
+[1.105342] (-) TimerEvent: {}
+[1.205889] (-) TimerEvent: {}
+[1.306419] (-) TimerEvent: {}
+[1.406990] (-) TimerEvent: {}
+[1.507497] (-) TimerEvent: {}
+[1.608002] (-) TimerEvent: {}
+[1.708561] (-) TimerEvent: {}
+[1.809031] (-) TimerEvent: {}
+[1.909521] (-) TimerEvent: {}
+[2.010128] (-) TimerEvent: {}
+[2.110796] (-) TimerEvent: {}
+[2.211433] (-) TimerEvent: {}
+[2.312040] (-) TimerEvent: {}
+[2.412671] (-) TimerEvent: {}
+[2.513256] (-) TimerEvent: {}
+[2.613882] (-) TimerEvent: {}
+[2.714506] (-) TimerEvent: {}
+[2.815176] (-) TimerEvent: {}
+[2.915848] (-) TimerEvent: {}
+[3.016434] (-) TimerEvent: {}
+[3.117094] (-) TimerEvent: {}
+[3.217727] (-) TimerEvent: {}
+[3.318337] (-) TimerEvent: {}
+[3.418877] (-) TimerEvent: {}
+[3.519493] (-) TimerEvent: {}
+[3.620107] (-) TimerEvent: {}
+[3.720719] (-) TimerEvent: {}
+[3.821314] (-) TimerEvent: {}
+[3.921973] (-) TimerEvent: {}
+[4.022641] (-) TimerEvent: {}
+[4.123333] (-) TimerEvent: {}
+[4.223964] (-) TimerEvent: {}
+[4.324487] (-) TimerEvent: {}
+[4.425302] (-) TimerEvent: {}
+[4.525926] (-) TimerEvent: {}
+[4.626494] (-) TimerEvent: {}
+[4.727163] (-) TimerEvent: {}
+[4.827816] (-) TimerEvent: {}
+[4.928414] (-) TimerEvent: {}
+[5.028917] (-) TimerEvent: {}
+[5.129447] (-) TimerEvent: {}
+[5.229933] (-) TimerEvent: {}
+[5.330446] (-) TimerEvent: {}
+[5.431000] (-) TimerEvent: {}
+[5.531608] (-) TimerEvent: {}
+[5.632129] (-) TimerEvent: {}
+[5.732622] (-) TimerEvent: {}
+[5.833160] (-) TimerEvent: {}
+[5.933687] (-) TimerEvent: {}
+[6.034250] (-) TimerEvent: {}
+[6.134882] (-) TimerEvent: {}
+[6.235576] (-) TimerEvent: {}
+[6.336376] (-) TimerEvent: {}
+[6.437052] (-) TimerEvent: {}
+[6.537708] (-) TimerEvent: {}
+[6.639049] (-) TimerEvent: {}
+[6.739736] (-) TimerEvent: {}
+[6.840230] (-) TimerEvent: {}
+[6.940729] (-) TimerEvent: {}
+[7.041255] (-) TimerEvent: {}
+[7.141743] (-) TimerEvent: {}
+[7.242238] (-) TimerEvent: {}
+[7.342894] (-) TimerEvent: {}
+[7.443436] (-) TimerEvent: {}
+[7.543934] (-) TimerEvent: {}
+[7.644414] (-) TimerEvent: {}
+[7.744940] (-) TimerEvent: {}
+[7.845418] (-) TimerEvent: {}
+[7.945971] (-) TimerEvent: {}
+[8.046493] (-) TimerEvent: {}
+[8.147024] (-) TimerEvent: {}
+[8.247580] (-) TimerEvent: {}
+[8.348086] (-) TimerEvent: {}
+[8.448657] (-) TimerEvent: {}
+[8.549239] (-) TimerEvent: {}
+[8.649748] (-) TimerEvent: {}
+[8.750201] (-) TimerEvent: {}
+[8.850690] (-) TimerEvent: {}
+[8.951193] (-) TimerEvent: {}
+[9.051743] (-) TimerEvent: {}
+[9.152229] (-) TimerEvent: {}
+[9.252680] (-) TimerEvent: {}
+[9.353171] (-) TimerEvent: {}
+[9.453653] (-) TimerEvent: {}
+[9.554192] (-) TimerEvent: {}
+[9.654700] (-) TimerEvent: {}
+[9.755207] (-) TimerEvent: {}
+[9.761718] (cpp_package) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable client_class\x1b[0m\n'}
+[9.855419] (-) TimerEvent: {}
+[9.955894] (-) TimerEvent: {}
+[10.056523] (-) TimerEvent: {}
+[10.138135] (cpp_package) StdoutLine: {'line': b'[100%] Built target client_class\n'}
+[10.156705] (-) TimerEvent: {}
+[10.163079] (cpp_package) CommandEnded: {'returncode': 0}
+[10.165054] (cpp_package) JobProgress: {'identifier': 'cpp_package', 'progress': 'install'}
+[10.183694] (cpp_package) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tayya/cpp_pkg/build/cpp_package'], 'cwd': '/home/tayya/cpp_pkg/build/cpp_package', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:en'), ('USER', 'tayya'), ('LC_TIME', 'tr_TR.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/tayya/cpp_pkg/install/cpp_package/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tayya'), ('OLDPWD', '/home/tayya'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'tr_TR.UTF-8'), ('MANAGERPID', '1366'), ('SYSTEMD_EXEC_PID', '1543'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator25ef4b219e3b005583550f2b0f9f990c3'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '5687'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/tayya/cpp_pkg/install:/home/tayya/robot_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'tayya'), ('JOURNAL_STREAM', '8:12222'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tayya'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Asus-Ubuntu:@/tmp/.ICE-unix/1501,unix/Asus-Ubuntu:/tmp/.ICE-unix/1501'), ('INVOCATION_ID', '11614ac4895a46cead433481e3f5fc6a'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'tr_TR.UTF-8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'tr_TR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.0INPY2'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'tr_TR.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:8e309289-df42-4e93-870c-fdc9c6f62956'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'tr_TR.UTF-8'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'tr_TR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tayya/cpp_pkg/build/cpp_package'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'tr_TR.UTF-8'), ('LC_PAPER', 'tr_TR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tayya/cpp_pkg/install/cpp_package:/home/tayya/robot_ws/install/my_robot_description:/opt/ros/humble')]), 'shell': False}
+[10.203314] (cpp_package) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.203939] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/rosidl_interfaces/cpp_package\n'}
+[10.204476] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package\n'}
+[10.204845] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/msg\n'}
+[10.205179] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/msg/rosidl_generator_c__visibility_control.h\n'}
+[10.205570] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv\n'}
+[10.205878] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail\n'}
+[10.206292] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__functions.c\n'}
+[10.206705] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__functions.h\n'}
+[10.206977] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__functions.h\n'}
+[10.207413] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__struct.h\n'}
+[10.208007] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__struct.h\n'}
+[10.208453] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__functions.c\n'}
+[10.208870] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__type_support.h\n'}
+[10.209344] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__type_support.h\n'}
+[10.209654] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/capital_full_name.h\n'}
+[10.209973] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/say_name.h\n'}
+[10.210225] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/library_path.sh\n'}
+[10.210526] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/library_path.dsv\n'}
+[10.210917] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/libcpp_package__rosidl_generator_c.so\n'}
+[10.211200] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package\n'}
+[10.211454] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/msg\n'}
+[10.211724] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[10.212038] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv\n'}
+[10.212323] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail\n'}
+[10.212553] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__rosidl_typesupport_fastrtps_c.h\n'}
+[10.212779] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__rosidl_typesupport_fastrtps_c.h\n'}
+[10.213008] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/libcpp_package__rosidl_typesupport_fastrtps_c.so\n'}
+[10.213461] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package\n'}
+[10.213725] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/msg\n'}
+[10.213984] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[10.214362] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv\n'}
+[10.214612] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/say_name.hpp\n'}
+[10.214874] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail\n'}
+[10.215196] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__type_support.hpp\n'}
+[10.215476] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__builder.hpp\n'}
+[10.215740] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__traits.hpp\n'}
+[10.216000] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__struct.hpp\n'}
+[10.216308] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__builder.hpp\n'}
+[10.216553] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__struct.hpp\n'}
+[10.216796] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__traits.hpp\n'}
+[10.217086] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__type_support.hpp\n'}
+[10.217389] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/capital_full_name.hpp\n'}
+[10.217653] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package\n'}
+[10.217888] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/msg\n'}
+[10.218193] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[10.218414] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv\n'}
+[10.218640] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail\n'}
+[10.218872] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.219109] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[10.219320] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/dds_fastrtps\n'}
+[10.219514] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/libcpp_package__rosidl_typesupport_fastrtps_cpp.so\n'}
+[10.219705] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package\n'}
+[10.219908] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/msg\n'}
+[10.220109] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[10.220339] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv\n'}
+[10.220545] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail\n'}
+[10.220737] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__rosidl_typesupport_introspection_c.h\n'}
+[10.220929] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__type_support.c\n'}
+[10.221157] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__rosidl_typesupport_introspection_c.h\n'}
+[10.221364] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__type_support.c\n'}
+[10.221557] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/libcpp_package__rosidl_typesupport_introspection_c.so\n'}
+[10.221746] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/libcpp_package__rosidl_typesupport_c.so\n'}
+[10.221937] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package\n'}
+[10.222145] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv\n'}
+[10.222349] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail\n'}
+[10.222541] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.222736] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/say_name__type_support.cpp\n'}
+[10.222928] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__rosidl_typesupport_introspection_cpp.hpp\n'}
+[10.223155] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/include/cpp_package/cpp_package/srv/detail/capital_full_name__type_support.cpp\n'}
+[10.223368] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/libcpp_package__rosidl_typesupport_introspection_cpp.so\n'}
+[10.223570] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/libcpp_package__rosidl_typesupport_cpp.so\n'}
+[10.223776] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/pythonpath.sh\n'}
+[10.224015] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/pythonpath.dsv\n'}
+[10.224280] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package-0.0.0-py3.10.egg-info\n'}
+[10.224543] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[10.224862] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[10.225127] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[10.225407] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[10.225663] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package\n'}
+[10.225875] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/__init__.py\n'}
+[10.226098] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/_cpp_package_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[10.226328] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/_cpp_package_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[10.226546] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/cpp_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.226762] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/cpp_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.226993] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/_cpp_package_s.ep.rosidl_typesupport_c.c\n'}
+[10.227210] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/libcpp_package__rosidl_generator_py.so\n'}
+[10.227410] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/cpp_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.227605] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/srv\n'}
+[10.227796] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/srv/_say_name.py\n'}
+[10.227994] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/srv/_capital_full_name_s.c\n'}
+[10.228270] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/srv/__init__.py\n'}
+[10.228492] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/srv/_capital_full_name.py\n'}
+[10.228688] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/srv/_say_name_s.c\n'}
+[10.256849] (-) TimerEvent: {}
+[10.285931] (cpp_package) StdoutLine: {'line': b"Listing '/home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package'...\n"}
+[10.286381] (cpp_package) StdoutLine: {'line': b"Listing '/home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/srv'...\n"}
+[10.295856] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/cpp_package_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.296427] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/cpp_package_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.296951] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/local/lib/python3.10/dist-packages/cpp_package/cpp_package_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[10.297860] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/libcpp_package__rosidl_generator_py.so\n'}
+[10.298372] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/srv/CapitalFullName.idl\n'}
+[10.298815] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/srv/CapitalFullName.srv\n'}
+[10.299141] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/srv/CapitalFullName_Request.msg\n'}
+[10.299558] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/srv/CapitalFullName_Response.msg\n'}
+[10.299806] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try\n'}
+[10.300190] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/cpp_try2\n'}
+[10.301063] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/subscriber\n'}
+[10.301928] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/publisher\n'}
+[10.302555] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/service\n'}
+[10.303016] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/client\n'}
+[10.303669] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/service_class\n'}
+[10.304058] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/client_class\n'}
+[10.306161] (cpp_package) StdoutLine: {'line': b'-- Set runtime path of "/home/tayya/cpp_pkg/install/cpp_package/lib/cpp_package/client_class" to ""\n'}
+[10.306547] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/package_run_dependencies/cpp_package\n'}
+[10.306784] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/parent_prefix_path/cpp_package\n'}
+[10.307007] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/ament_prefix_path.sh\n'}
+[10.307344] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/ament_prefix_path.dsv\n'}
+[10.307639] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/path.sh\n'}
+[10.307883] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/environment/path.dsv\n'}
+[10.308133] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.bash\n'}
+[10.308559] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.sh\n'}
+[10.308809] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.zsh\n'}
+[10.309127] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/local_setup.dsv\n'}
+[10.309523] (cpp_package) StdoutLine: {'line': b'-- Installing: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/package.dsv\n'}
+[10.309797] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/ament_index/resource_index/packages/cpp_package\n'}
+[10.310205] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/export_cpp_package__rosidl_generator_cExport.cmake\n'}
+[10.310552] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/export_cpp_package__rosidl_generator_cExport-noconfig.cmake\n'}
+[10.310773] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/export_cpp_package__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[10.310998] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/export_cpp_package__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[10.311278] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/export_cpp_package__rosidl_generator_cppExport.cmake\n'}
+[10.311501] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/export_cpp_package__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[10.311717] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/export_cpp_package__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[10.311940] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_package__rosidl_typesupport_introspection_cExport.cmake\n'}
+[10.312204] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_package__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[10.312437] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_package__rosidl_typesupport_cExport.cmake\n'}
+[10.312637] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_package__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[10.312837] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_package__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[10.313039] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_package__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[10.313297] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_package__rosidl_typesupport_cppExport.cmake\n'}
+[10.313775] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_package__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[10.314131] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/export_cpp_package__rosidl_generator_pyExport.cmake\n'}
+[10.314673] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/export_cpp_package__rosidl_generator_pyExport-noconfig.cmake\n'}
+[10.314998] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/rosidl_cmake-extras.cmake\n'}
+[10.315727] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[10.317024] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[10.317873] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[10.318112] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[10.318558] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[10.318775] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[10.318986] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig.cmake\n'}
+[10.319330] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/cmake/cpp_packageConfig-version.cmake\n'}
+[10.319546] (cpp_package) StdoutLine: {'line': b'-- Up-to-date: /home/tayya/cpp_pkg/install/cpp_package/share/cpp_package/package.xml\n'}
+[10.319753] (cpp_package) CommandEnded: {'returncode': 0}
+[10.356964] (-) TimerEvent: {}
+[10.373381] (cpp_package) JobEnded: {'identifier': 'cpp_package', 'rc': 0}
+[10.374924] (-) EventReactorShutdown: {}

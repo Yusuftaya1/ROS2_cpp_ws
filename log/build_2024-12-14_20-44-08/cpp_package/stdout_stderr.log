@@ -1,0 +1,43 @@
+[  2%] Built target cpp_package__cpp
+[  8%] Built target cpp_package__rosidl_generator_c
+[ 12%] Built target publisher
+[ 12%] Built target ament_cmake_python_copy_cpp_package
+[ 17%] Built target subscriber
+[ 21%] Built target cpp_try2
+[ 25%] Built target cpp_try
+[ 29%] Built target service
+[ 31%] [32m[1mLinking CXX executable client_class[0m
+[35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_c[0m
+[ 36%] Built target client
+[ 38%] [32mBuilding CXX object CMakeFiles/service_class.dir/src/service_class.cpp.o[0m
+[ 44%] Built target cpp_package__rosidl_typesupport_cpp
+[ 51%] Built target cpp_package__rosidl_typesupport_introspection_c
+[ 57%] Built target cpp_package__rosidl_typesupport_fastrtps_cpp
+[ 63%] Built target cpp_package__rosidl_typesupport_fastrtps_c
+[ 70%] Built target cpp_package__rosidl_typesupport_c
+[ 76%] Built target cpp_package__rosidl_typesupport_introspection_cpp
+[ 76%] Built target cpp_package
+[ 78%] Built target cpp_package__py
+[ 80%] [32mBuilding C object CMakeFiles/cpp_package__rosidl_generator_py.dir/rosidl_generator_py/cpp_package/srv/_capital_full_name_s.c.o[0m
+/usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+(.text+0x1b): undefined reference to `main'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/client_class.dir/build.make:190: client_class] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:788: CMakeFiles/client_class.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_package/srv/capital_full_name.srv: No such file or directory
+    2 | #include [01;31m[K"cpp_package/srv/capital_full_name.srv"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/service_class.dir/build.make:76: CMakeFiles/service_class.dir/src/service_class.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:762: CMakeFiles/service_class.dir/all] Error 2
+[ 82%] [32m[1mLinking C shared library rosidl_generator_py/cpp_package/libcpp_package__rosidl_generator_py.so[0m
+running egg_info
+writing cpp_package.egg-info/PKG-INFO
+writing dependency_links to cpp_package.egg-info/dependency_links.txt
+writing top-level names to cpp_package.egg-info/top_level.txt
+reading manifest file 'cpp_package.egg-info/SOURCES.txt'
+writing manifest file 'cpp_package.egg-info/SOURCES.txt'
+[ 82%] Built target ament_cmake_python_build_cpp_package_egg
+[ 82%] Built target cpp_package__rosidl_generator_py
+gmake: *** [Makefile:146: all] Error 2

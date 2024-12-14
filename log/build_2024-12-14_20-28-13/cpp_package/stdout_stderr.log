@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:40:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "<member_of_group>rosidl_interface_packages</member_of_group>".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/tayya/cpp_pkg/build/cpp_package/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:472: cmake_check_build_system] Error 1

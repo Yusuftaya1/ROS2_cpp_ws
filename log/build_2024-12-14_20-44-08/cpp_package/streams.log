@@ -1,0 +1,45 @@
+[0.035s] Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
+[0.208s] [  2%] Built target cpp_package__cpp
+[0.214s] [  8%] Built target cpp_package__rosidl_generator_c
+[0.222s] [ 12%] Built target publisher
+[0.236s] [ 12%] Built target ament_cmake_python_copy_cpp_package
+[0.237s] [ 17%] Built target subscriber
+[0.243s] [ 21%] Built target cpp_try2
+[0.247s] [ 25%] Built target cpp_try
+[0.250s] [ 29%] Built target service
+[0.293s] [ 31%] [32m[1mLinking CXX executable client_class[0m
+[0.297s] [35m[1mConsolidate compiler generated dependencies of target cpp_package__rosidl_typesupport_c[0m
+[0.305s] [ 36%] Built target client
+[0.305s] [ 38%] [32mBuilding CXX object CMakeFiles/service_class.dir/src/service_class.cpp.o[0m
+[0.310s] [ 44%] Built target cpp_package__rosidl_typesupport_cpp
+[0.328s] [ 51%] Built target cpp_package__rosidl_typesupport_introspection_c
+[0.329s] [ 57%] Built target cpp_package__rosidl_typesupport_fastrtps_cpp
+[0.335s] [ 63%] Built target cpp_package__rosidl_typesupport_fastrtps_c
+[0.352s] [ 70%] Built target cpp_package__rosidl_typesupport_c
+[0.394s] [ 76%] Built target cpp_package__rosidl_typesupport_introspection_cpp
+[0.437s] [ 76%] Built target cpp_package
+[0.484s] [ 78%] Built target cpp_package__py
+[0.536s] [ 80%] [32mBuilding C object CMakeFiles/cpp_package__rosidl_generator_py.dir/rosidl_generator_py/cpp_package/srv/_capital_full_name_s.c.o[0m
+[0.560s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.560s] (.text+0x1b): undefined reference to `main'
+[0.563s] collect2: error: ld returned 1 exit status
+[0.568s] gmake[2]: *** [CMakeFiles/client_class.dir/build.make:190: client_class] Error 1
+[0.568s] gmake[1]: *** [CMakeFiles/Makefile2:788: CMakeFiles/client_class.dir/all] Error 2
+[0.568s] gmake[1]: *** Waiting for unfinished jobs....
+[1.029s] [01m[K/home/tayya/cpp_pkg/src/cpp_package/src/service_class.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_package/srv/capital_full_name.srv: No such file or directory
+[1.029s]     2 | #include [01;31m[K"cpp_package/srv/capital_full_name.srv"[m[K
+[1.030s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[1.030s] compilation terminated.
+[1.037s] gmake[2]: *** [CMakeFiles/service_class.dir/build.make:76: CMakeFiles/service_class.dir/src/service_class.cpp.o] Error 1
+[1.037s] gmake[1]: *** [CMakeFiles/Makefile2:762: CMakeFiles/service_class.dir/all] Error 2
+[1.076s] [ 82%] [32m[1mLinking C shared library rosidl_generator_py/cpp_package/libcpp_package__rosidl_generator_py.so[0m
+[1.087s] running egg_info
+[1.090s] writing cpp_package.egg-info/PKG-INFO
+[1.091s] writing dependency_links to cpp_package.egg-info/dependency_links.txt
+[1.091s] writing top-level names to cpp_package.egg-info/top_level.txt
+[1.097s] reading manifest file 'cpp_package.egg-info/SOURCES.txt'
+[1.099s] writing manifest file 'cpp_package.egg-info/SOURCES.txt'
+[1.174s] [ 82%] Built target ament_cmake_python_build_cpp_package_egg
+[1.177s] [ 82%] Built target cpp_package__rosidl_generator_py
+[1.180s] gmake: *** [Makefile:146: all] Error 2
+[1.184s] Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
