@@ -35,16 +35,21 @@ foreach(target service_class client_class)
   target_include_directories(${target} PUBLIC ${common_include_dirs})
   target_compile_features(${target} PUBLIC ${common_compile_features})
   ament_target_dependencies(${target} ${common_dependencies})
-  rosidl_target_interfaces(${target} ${PROJECT_NAME} "rosidl_typesupport_cpp")
-endforeach()
+  rosidl_get_typesupport_target(typesupport_target ${PROJECT_NAME} "rosidl_typesupport_cpp")
+  target_link_libraries(${target} ${typesupport_target})
+  endforeach()
 
 
 # Install targets
 install(TARGETS 
-        cpp_try cpp_try2 
-        subscriber publisher 
-        service client 
-        service_class client_class
+        cpp_try 
+        cpp_try2 
+        subscriber 
+        publisher 
+        service 
+        client 
+        service_class 
+        client_class
   DESTINATION lib/${PROJECT_NAME})
 
 ament_package()

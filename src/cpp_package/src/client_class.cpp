@@ -41,12 +41,11 @@ void MyClientNode::ServerResponse(){
     else{
         RCLCPP_ERROR(rclcpp::get_logger("rclcpp"), "Failed to call service create_cap_full_name");
     }
-
 }
 
 int main(int argc, char **argv){
   rclcpp::init(argc, argv);
-  while (true){
+  while (rclcpp::ok){
     std::string name = "";
     std::string surname = "";
     std::cout << "Insert the name -> ";

@@ -4,7 +4,9 @@
 class MySubscriber : public rclcpp::Node{
     private:
         rclcpp::Subscription<std_msgs::msg::String>::SharedPtr sub_;
-        void SubscriberCallback(const std_msgs::msg::String::SharedPtr msg);
+        void SubscriberCallback(const std_msgs::msg::String::SharedPtr msg){
+            RCLCPP_INFO(this->get_logger(), "I received the message : '%s'", msg->data.c_str());
+}
 
     public:
         MySubscriber():Node("sub_node"){
@@ -14,9 +16,6 @@ class MySubscriber : public rclcpp::Node{
         }
 };
 
-void MySubscriber::SubscriberCallback(const std_msgs::msg::String::SharedPtr msg){
-    RCLCPP_INFO(this->get_logger(), "I received the message : '%s'", msg->data.c_str());
-}
 
 int main(int argc, char * argv[]){
   rclcpp::init(argc, argv);

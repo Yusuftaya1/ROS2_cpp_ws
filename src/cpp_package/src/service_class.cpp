@@ -24,7 +24,7 @@ void MyServiceNode::ComposeFullName(const std::shared_ptr<CapitalFullName::Reque
     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Sending back the capitalize full name: [%s]", response->capitalfullname.c_str());
 }
 
-int main(int argc, char **argv){
+int main(int argc, char **argv) {
   rclcpp::init(argc, argv);
   auto node = std::make_shared<MyServiceNode>();
   rclcpp::spin(node);   // the service starts to wait and manage requests
