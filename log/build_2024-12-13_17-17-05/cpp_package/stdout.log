@@ -1,8 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target publisher[0m
-[35m[1mConsolidate compiler generated dependencies of target cpp_try2[0m
-[35m[1mConsolidate compiler generated dependencies of target cpp_try[0m
-[ 16%] [32mBuilding CXX object CMakeFiles/publisher.dir/src/publisher.cpp.o[0m
-[ 33%] [32mBuilding CXX object CMakeFiles/cpp_try2.dir/src/cpp_try2.cpp.o[0m
-[ 66%] Built target cpp_try
-[ 83%] [32m[1mLinking CXX executable cpp_try2[0m
-[ 83%] Built target cpp_try2

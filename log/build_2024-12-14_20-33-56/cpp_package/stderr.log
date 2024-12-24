@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:15 (rrosidl_generate_interfaces):
-  Unknown CMake command "rrosidl_generate_interfaces".
-
-[0m
-gmake: *** [Makefile:1075: cmake_check_build_system] Error 1

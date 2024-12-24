@@ -1,4 +1,0 @@
-Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
-Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/tayya/cpp_pkg/build/cpp_package -- -j8 -l8
-Invoking command in '/home/tayya/cpp_pkg/build/cpp_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tayya/cpp_pkg/build/cpp_package
-Invoked command in '/home/tayya/cpp_pkg/build/cpp_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/tayya/cpp_pkg/build/cpp_package

@@ -4,6 +4,3 @@ cpp_package.egg-info/PKG-INFO
 cpp_package.egg-info/SOURCES.txt
 cpp_package.egg-info/dependency_links.txt
 cpp_package.egg-info/top_level.txt
-cpp_package/srv/__init__.py
-cpp_package/srv/_capital_full_name.py
-cpp_package/srv/_say_name.py

@@ -10,10 +10,9 @@ class MyClientNode : public rclcpp::Node{
         const std::string surname_;
         rclcpp::Client<CapitalFullName>::SharedPtr client_;
         void ServerResponse();
-    
+
     public:
-        MyClientNode(std::string passedNodeName="VOID", std::string passedName="VOID", std::string passedSurname="VOID")
-            : Node(passedNodeName), name_(passedName), surname_(passedSurname){
+        MyClientNode(std::string passedNodeName="VOID", std::string passedName="VOID", std::string passedSurname="VOID"): Node(passedNodeName), name_(passedName), surname_(passedSurname){
                 client_ = this->create_client<CapitalFullName>("create_cap_full_name");
                 this->ServerResponse();
         }
@@ -45,7 +44,7 @@ void MyClientNode::ServerResponse(){
 
 int main(int argc, char **argv){
   rclcpp::init(argc, argv);
-  while (rclcpp::ok){
+  while (rclcpp::ok()){
     std::string name = "";
     std::string surname = "";
     std::cout << "Insert the name -> ";

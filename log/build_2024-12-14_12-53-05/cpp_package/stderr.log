@@ -1,8 +1,0 @@
-[01m[K/home/tayya/cpp_pkg/src/cpp_package/src/custom_service.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kcpp_package/srv/sayname.hpp: No such file or directory
-    2 | #include [01;31m[K"cpp_package/srv/sayname.hpp"[m[K
-      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
-compilation terminated.
-gmake[2]: *** [CMakeFiles/custom_service.dir/build.make:76: CMakeFiles/custom_service.dir/src/custom_service.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:732: CMakeFiles/custom_service.dir/all] Error 2
-gmake[1]: *** Waiting for unfinished jobs....
-gmake: *** [Makefile:146: all] Error 2
